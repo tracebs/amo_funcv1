@@ -5,56 +5,56 @@
  * Date: 21.12.2015
  * Time: 10:26
  */
-// настройки (((
+// РЅР°СЃС‚СЂРѕР№РєРё (((
 // dev
 
 define('AMOCRM_LOGIN', 'nikolaev@textiloptom.net');
 define('AMOCRM_SUBDOMAIN', 'domitex');
 define('AMOCRM_API_KEY', '7a3aeaabf4501e6d6545140e5600b079');
 
-define('AMOCRM_CONTACT_PHONE_CSTFID', 600364); # id поля Телефон у контакта
-define('AMOCRM_CONTACT_PHONE_CSTFTYPE', 'WORK'); # тип поля Телефон у контакта
+define('AMOCRM_CONTACT_PHONE_CSTFID', 600364); # id РїРѕР»СЏ РўРµР»РµС„РѕРЅ Сѓ РєРѕРЅС‚Р°РєС‚Р°
+define('AMOCRM_CONTACT_PHONE_CSTFTYPE', 'WORK'); # С‚РёРї РїРѕР»СЏ РўРµР»РµС„РѕРЅ Сѓ РєРѕРЅС‚Р°РєС‚Р°
 
-define('AMOCRM_CONTACT_EMAIL_CSTFID', 600366); # id поля Email у контакта
-define('AMOCRM_CONTACT_EMAIL_CSTFTYPE', 'WORK'); # тип поля Email у контакта
+define('AMOCRM_CONTACT_EMAIL_CSTFID', 600366); # id РїРѕР»СЏ Email Сѓ РєРѕРЅС‚Р°РєС‚Р°
+define('AMOCRM_CONTACT_EMAIL_CSTFTYPE', 'WORK'); # С‚РёРї РїРѕР»СЏ Email Сѓ РєРѕРЅС‚Р°РєС‚Р°
 
-define('AMOCRM_CONTACT_LGNt_CSTFID', 651536); # id поля "Логин textiloptom" у контакта
-define('AMOCRM_CONTACT_LGNs_CSTFID', 651538); # id поля "Логин sailid" у контакта
-define('AMOCRM_CONTACT_LGNa_CSTFID', 651540); # id поля "Логин API" у контакта
+define('AMOCRM_CONTACT_LGNt_CSTFID', 651536); # id РїРѕР»СЏ "Р›РѕРіРёРЅ textiloptom" Сѓ РєРѕРЅС‚Р°РєС‚Р°
+define('AMOCRM_CONTACT_LGNs_CSTFID', 651538); # id РїРѕР»СЏ "Р›РѕРіРёРЅ sailid" Сѓ РєРѕРЅС‚Р°РєС‚Р°
+define('AMOCRM_CONTACT_LGNa_CSTFID', 651540); # id РїРѕР»СЏ "Р›РѕРіРёРЅ API" Сѓ РєРѕРЅС‚Р°РєС‚Р°
 
-define('AMOCRM_COMPANY_INN_CSTFID', 652037); # id поля "ИНН" у компании
-define('AMOCRM_COMPANY_FULLN_CSTFID', 652039); # id поля "Полное наименование" у компании
-define('AMOCRM_COMPANY_YURADDR_CSTFID', 648716); # id поля "Юридический адрес" у компании
-define('AMOCRM_COMPANY_DFIO_CSTFID', 652041); # id поля "ФИО руководителя" у компании
-define('AMOCRM_COMPANY_SITE_CSTFID', 600368); # id поля "Web" у компании
+define('AMOCRM_COMPANY_INN_CSTFID', 652037); # id РїРѕР»СЏ "РРќРќ" Сѓ РєРѕРјРїР°РЅРёРё
+define('AMOCRM_COMPANY_FULLN_CSTFID', 652039); # id РїРѕР»СЏ "РџРѕР»РЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" Сѓ РєРѕРјРїР°РЅРёРё
+define('AMOCRM_COMPANY_YURADDR_CSTFID', 648716); # id РїРѕР»СЏ "Р®СЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ" Сѓ РєРѕРјРїР°РЅРёРё
+define('AMOCRM_COMPANY_DFIO_CSTFID', 652041); # id РїРѕР»СЏ "Р¤РРћ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ" Сѓ РєРѕРјРїР°РЅРёРё
+define('AMOCRM_COMPANY_SITE_CSTFID', 600368); # id РїРѕР»СЏ "Web" Сѓ РєРѕРјРїР°РЅРёРё
 
-define('AMOCRM_TASKTYPECALL_ID', 1); # id типа задачи "Звонок"
-define('AMOCRM_LOG_FILE', 'amolog.txt'); # запись логов
-define('AMOCRM_LOG_FILE2', 'amolog2.txt'); # запись логов
+define('AMOCRM_TASKTYPECALL_ID', 1); # id С‚РёРїР° Р·Р°РґР°С‡Рё "Р—РІРѕРЅРѕРє"
+define('AMOCRM_LOG_FILE', 'amolog.txt'); # Р·Р°РїРёСЃСЊ Р»РѕРіРѕРІ
+define('AMOCRM_LOG_FILE2', 'amolog2.txt'); # Р·Р°РїРёСЃСЊ Р»РѕРіРѕРІ
 
-# ответственные (((
+# РѕС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Рµ (((
 define('AMOCRM_ID_FIXED_RESPONSIBLE', 594474);
-//id ответственных 624678 - Пованов
+//id РѕС‚РІРµС‚СЃС‚РІРµРЅРЅС‹С… 624678 - РџРѕРІР°РЅРѕРІ
 $arrAmocrmIdsResponsible = array (591174, 591192, 594459, 594462, 594480, 594486, 594489, 591168);
-//исключения ответсвенных из 594492 - Николаев, Селезнев - 628743
+//РёСЃРєР»СЋС‡РµРЅРёСЏ РѕС‚РІРµС‚СЃРІРµРЅРЅС‹С… РёР· 594492 - РќРёРєРѕР»Р°РµРІ, РЎРµР»РµР·РЅРµРІ - 628743
 $arrAmocrmIdsResponsibleDisable = array (594492, 628743);
-# ))) ответственные
+# ))) РѕС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Рµ
 
 $strAmocrmFwritePath = $_SERVER['DOCUMENT_ROOT']. '';
 
 $strAmocrmCookieFile = $strAmocrmFwritePath . '\\cookies.txt';
 
-# ))) настройки
+# ))) РЅР°СЃС‚СЂРѕР№РєРё
 
-# ниже - функции
+# РЅРёР¶Рµ - С„СѓРЅРєС†РёРё
 
 #-----------
 function fncGetIdNextResponsible($arrIdsRspnsible, $strFwrtPath) {
-    //функция выполняет получение следующего ответственого
+    //С„СѓРЅРєС†РёСЏ РІС‹РїРѕР»РЅСЏРµС‚ РїРѕР»СѓС‡РµРЅРёРµ СЃР»РµРґСѓСЋС‰РµРіРѕ РѕС‚РІРµС‚СЃС‚РІРµРЅРѕРіРѕ
     $strFileFullName = $strFwrtPath . 'idLatestResp.txt';
 
     if (is_writable($strFileFullName)) {
-        //если файл доступен для записи - то берем случайным образом нового менеджера не равного предыдущему и возвращаем в результат нового совсемстно с записью в файл
+        //РµСЃР»Рё С„Р°Р№Р» РґРѕСЃС‚СѓРїРµРЅ РґР»СЏ Р·Р°РїРёСЃРё - С‚Рѕ Р±РµСЂРµРј СЃР»СѓС‡Р°Р№РЅС‹Рј РѕР±СЂР°Р·РѕРј РЅРѕРІРѕРіРѕ РјРµРЅРµРґР¶РµСЂР° РЅРµ СЂР°РІРЅРѕРіРѕ РїСЂРµРґС‹РґСѓС‰РµРјСѓ Рё РІРѕР·РІСЂР°С‰Р°РµРј РІ СЂРµР·СѓР»СЊС‚Р°С‚ РЅРѕРІРѕРіРѕ СЃРѕРІСЃРµРјСЃС‚РЅРѕ СЃ Р·Р°РїРёСЃСЊСЋ РІ С„Р°Р№Р»
         $idNextResp = NULL;
 
         if (
@@ -68,7 +68,7 @@ function fncGetIdNextResponsible($arrIdsRspnsible, $strFwrtPath) {
             else {
 
                 $idLatestResp = NULL;
-                //получаем ID последнего менеджера из файла
+                //РїРѕР»СѓС‡Р°РµРј ID РїРѕСЃР»РµРґРЅРµРіРѕ РјРµРЅРµРґР¶РµСЂР° РёР· С„Р°Р№Р»Р°
                 if (
                 is_file($strFileFullName)
                 ) {
@@ -119,11 +119,11 @@ function fncGetIdNextResponsible($arrIdsRspnsible, $strFwrtPath) {
         if (
         isset ($idNextResp)
         ) {
-            //пишем в файл последнего
+            //РїРёС€РµРј РІ С„Р°Р№Р» РїРѕСЃР»РµРґРЅРµРіРѕ
             @file_put_contents($strFileFullName, $idNextResp);
         } # if
     } else {
-        //если нельзя записать в файл последнего менеджера - то генерим случайного из массива
+        //РµСЃР»Рё РЅРµР»СЊР·СЏ Р·Р°РїРёСЃР°С‚СЊ РІ С„Р°Р№Р» РїРѕСЃР»РµРґРЅРµРіРѕ РјРµРЅРµРґР¶РµСЂР° - С‚Рѕ РіРµРЅРµСЂРёРј СЃР»СѓС‡Р°Р№РЅРѕРіРѕ РёР· РјР°СЃСЃРёРІР°
         $idNextResp = NULL;
 
         if (
@@ -137,7 +137,7 @@ function fncGetIdNextResponsible($arrIdsRspnsible, $strFwrtPath) {
                 $idNextResp = $arrIdsRspnsible[array_rand($arrIdsRspnsible)];
             }
         }
-        //иначе просто генерим случайный номер менеджера
+        //РёРЅР°С‡Рµ РїСЂРѕСЃС‚Рѕ РіРµРЅРµСЂРёРј СЃР»СѓС‡Р°Р№РЅС‹Р№ РЅРѕРјРµСЂ РјРµРЅРµРґР¶РµСЂР°
     } //else
 
     return $idNextResp;
@@ -148,21 +148,21 @@ function fncGetIdNextResponsible($arrIdsRspnsible, $strFwrtPath) {
 #-----------
 function fncAmocrmAuth($strLogin, $strSubdomain, $strApiKey, $strCookieFileName) {
 
-    # почти copy-paste из документации (((
+    # РїРѕС‡С‚Рё copy-paste РёР· РґРѕРєСѓРјРµРЅС‚Р°С†РёРё (((
 
-    #Массив с параметрами, которые нужно передать методом POST к API системы
+    #РњР°СЃСЃРёРІ СЃ РїР°СЂР°РјРµС‚СЂР°РјРё, РєРѕС‚РѕСЂС‹Рµ РЅСѓР¶РЅРѕ РїРµСЂРµРґР°С‚СЊ РјРµС‚РѕРґРѕРј POST Рє API СЃРёСЃС‚РµРјС‹
     $user=array(
-        'USER_LOGIN'=>$strLogin, #Ваш логин (электронная почта)
-        'USER_HASH'=>$strApiKey #Хэш для доступа к API (смотрите в профиле пользователя)
+        'USER_LOGIN'=>$strLogin, #Р’Р°С€ Р»РѕРіРёРЅ (СЌР»РµРєС‚СЂРѕРЅРЅР°СЏ РїРѕС‡С‚Р°)
+        'USER_HASH'=>$strApiKey #РҐСЌС€ РґР»СЏ РґРѕСЃС‚СѓРїР° Рє API (СЃРјРѕС‚СЂРёС‚Рµ РІ РїСЂРѕС„РёР»Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ)
     );
 
-    $subdomain=$strSubdomain; #Наш аккаунт - поддомен
+    $subdomain=$strSubdomain; #РќР°С€ Р°РєРєР°СѓРЅС‚ - РїРѕРґРґРѕРјРµРЅ
 
-    #Формируем ссылку для запроса
+    #Р¤РѕСЂРјРёСЂСѓРµРј СЃСЃС‹Р»РєСѓ РґР»СЏ Р·Р°РїСЂРѕСЃР°
     $link='https://'.$subdomain.'.amocrm.ru/private/api/auth.php?type=json';
 
-    $curl=curl_init(); #Сохраняем дескриптор сеанса cURL
-    #Устанавливаем необходимые опции для сеанса cURL
+    $curl=curl_init(); #РЎРѕС…СЂР°РЅСЏРµРј РґРµСЃРєСЂРёРїС‚РѕСЂ СЃРµР°РЅСЃР° cURL
+    #РЈСЃС‚Р°РЅР°РІР»РёРІР°РµРј РЅРµРѕР±С…РѕРґРёРјС‹Рµ РѕРїС†РёРё РґР»СЏ СЃРµР°РЅСЃР° cURL
     curl_setopt($curl,CURLOPT_RETURNTRANSFER,true);
     curl_setopt($curl,CURLOPT_USERAGENT,'amoCRM-API-client');
     curl_setopt($curl,CURLOPT_URL,$link);
@@ -175,9 +175,9 @@ function fncAmocrmAuth($strLogin, $strSubdomain, $strApiKey, $strCookieFileName)
     curl_setopt($curl,CURLOPT_SSL_VERIFYPEER,0);
     curl_setopt($curl,CURLOPT_SSL_VERIFYHOST,0);
 
-    $out=curl_exec($curl); #Инициируем запрос к API и сохраняем ответ в переменную
-    $code=curl_getinfo($curl,CURLINFO_HTTP_CODE); #Получим HTTP-код ответа сервера
-    curl_close($curl); #Завершаем сеанс cURL
+    $out=curl_exec($curl); #РРЅРёС†РёРёСЂСѓРµРј Р·Р°РїСЂРѕСЃ Рє API Рё СЃРѕС…СЂР°РЅСЏРµРј РѕС‚РІРµС‚ РІ РїРµСЂРµРјРµРЅРЅСѓСЋ
+    $code=curl_getinfo($curl,CURLINFO_HTTP_CODE); #РџРѕР»СѓС‡РёРј HTTP-РєРѕРґ РѕС‚РІРµС‚Р° СЃРµСЂРІРµСЂР°
+    curl_close($curl); #Р—Р°РІРµСЂС€Р°РµРј СЃРµР°РЅСЃ cURL
 
     $code=(int)$code;
     $errors=array(
@@ -192,7 +192,7 @@ function fncAmocrmAuth($strLogin, $strSubdomain, $strApiKey, $strCookieFileName)
     );
     try
     {
-        #Если код ответа не равен 200 или 204 - возвращаем сообщение об ошибке
+        #Р•СЃР»Рё РєРѕРґ РѕС‚РІРµС‚Р° РЅРµ СЂР°РІРµРЅ 200 РёР»Рё 204 - РІРѕР·РІСЂР°С‰Р°РµРј СЃРѕРѕР±С‰РµРЅРёРµ РѕР± РѕС€РёР±РєРµ
         if($code!=200 && $code!=204)
             return array (
                 'boolOk' => FALSE,
@@ -203,27 +203,27 @@ function fncAmocrmAuth($strLogin, $strSubdomain, $strApiKey, $strCookieFileName)
     {
         return array (
             'boolOk' => FALSE,
-            'strErrDevelopUtf8' => 'AmoCRM error: ' . $E->getMessage().PHP_EOL.'Код ошибки: '.$E->getCode(),
+            'strErrDevelopUtf8' => 'AmoCRM error: ' . $E->getMessage().PHP_EOL.'РљРѕРґ РѕС€РёР±РєРё: '.$E->getCode(),
         );
     }
 
     /**
-     * Данные получаем в формате JSON, поэтому, для получения читаемых данных,
-     * нам придётся перевести ответ в формат, понятный PHP
+     * Р”Р°РЅРЅС‹Рµ РїРѕР»СѓС‡Р°РµРј РІ С„РѕСЂРјР°С‚Рµ JSON, РїРѕСЌС‚РѕРјСѓ, РґР»СЏ РїРѕР»СѓС‡РµРЅРёСЏ С‡РёС‚Р°РµРјС‹С… РґР°РЅРЅС‹С…,
+     * РЅР°Рј РїСЂРёРґС‘С‚СЃСЏ РїРµСЂРµРІРµСЃС‚Рё РѕС‚РІРµС‚ РІ С„РѕСЂРјР°С‚, РїРѕРЅСЏС‚РЅС‹Р№ PHP
      */
     $Response=json_decode($out,true);
 
     $Response=$Response['response'];
-    if(isset($Response['auth'])) #Флаг авторизации доступен в свойстве "auth"
+    if(isset($Response['auth'])) #Р¤Р»Р°Рі Р°РІС‚РѕСЂРёР·Р°С†РёРё РґРѕСЃС‚СѓРїРµРЅ РІ СЃРІРѕР№СЃС‚РІРµ "auth"
         return array (
             'boolOk' => TRUE,
         );
     return array (
         'boolOk' => FALSE,
-        'strErrDevelopUtf8' => 'AmoCRM error: ' . 'Авторизация не удалась',
+        'strErrDevelopUtf8' => 'AmoCRM error: ' . 'РђРІС‚РѕСЂРёР·Р°С†РёСЏ РЅРµ СѓРґР°Р»Р°СЃСЊ',
     );
 
-    # ))) почти copy-paste из документации
+    # ))) РїРѕС‡С‚Рё copy-paste РёР· РґРѕРєСѓРјРµРЅС‚Р°С†РёРё
 
 } # function
 #-----------
@@ -233,19 +233,19 @@ function fncAmocrmContactsSet(
     $strSubdomain,
     $strCookieFileName,
     $arrContactsSet,
-    $addORupdate # 'add' или 'update'
+    $addORupdate # 'add' РёР»Рё 'update'
 ) {
 
-    # почти copy-paste из документации (((
+    # РїРѕС‡С‚Рё copy-paste РёР· РґРѕРєСѓРјРµРЅС‚Р°С†РёРё (((
 
     $contacts['request']['contacts'][$addORupdate] = $arrContactsSet;
 
-    $subdomain=$strSubdomain; #Наш аккаунт - поддомен
-    #Формируем ссылку для запроса
+    $subdomain=$strSubdomain; #РќР°С€ Р°РєРєР°СѓРЅС‚ - РїРѕРґРґРѕРјРµРЅ
+    #Р¤РѕСЂРјРёСЂСѓРµРј СЃСЃС‹Р»РєСѓ РґР»СЏ Р·Р°РїСЂРѕСЃР°
     $link='https://'.$subdomain.'.amocrm.ru/private/api/v2/json/contacts/set';
 
-    $curl=curl_init(); #Сохраняем дескриптор сеанса cURL
-    #Устанавливаем необходимые опции для сеанса cURL
+    $curl=curl_init(); #РЎРѕС…СЂР°РЅСЏРµРј РґРµСЃРєСЂРёРїС‚РѕСЂ СЃРµР°РЅСЃР° cURL
+    #РЈСЃС‚Р°РЅР°РІР»РёРІР°РµРј РЅРµРѕР±С…РѕРґРёРјС‹Рµ РѕРїС†РёРё РґР»СЏ СЃРµР°РЅСЃР° cURL
     curl_setopt($curl,CURLOPT_RETURNTRANSFER,true);
     curl_setopt($curl,CURLOPT_USERAGENT,'amoCRM-API-client');
     curl_setopt($curl,CURLOPT_URL,$link);
@@ -258,7 +258,7 @@ function fncAmocrmContactsSet(
     curl_setopt($curl,CURLOPT_SSL_VERIFYPEER,0);
     curl_setopt($curl,CURLOPT_SSL_VERIFYHOST,0);
 
-    $out=curl_exec($curl); #Инициируем запрос к API и сохраняем ответ в переменную
+    $out=curl_exec($curl); #РРЅРёС†РёРёСЂСѓРµРј Р·Р°РїСЂРѕСЃ Рє API Рё СЃРѕС…СЂР°РЅСЏРµРј РѕС‚РІРµС‚ РІ РїРµСЂРµРјРµРЅРЅСѓСЋ
     $code=curl_getinfo($curl,CURLINFO_HTTP_CODE);
 
     $code=(int)$code;
@@ -274,7 +274,7 @@ function fncAmocrmContactsSet(
     );
     try
     {
-        #Если код ответа не равен 200 или 204 - возвращаем сообщение об ошибке
+        #Р•СЃР»Рё РєРѕРґ РѕС‚РІРµС‚Р° РЅРµ СЂР°РІРµРЅ 200 РёР»Рё 204 - РІРѕР·РІСЂР°С‰Р°РµРј СЃРѕРѕР±С‰РµРЅРёРµ РѕР± РѕС€РёР±РєРµ
         if($code!=200 && $code!=204)
             return array (
                 'boolOk' => FALSE,
@@ -285,13 +285,13 @@ function fncAmocrmContactsSet(
     {
         return array (
             'boolOk' => FALSE,
-            'strErrDevelopUtf8' => 'AmoCRM error: ' . $E->getMessage().PHP_EOL.'Код ошибки: '.$E->getCode(),
+            'strErrDevelopUtf8' => 'AmoCRM error: ' . $E->getMessage().PHP_EOL.'РљРѕРґ РѕС€РёР±РєРё: '.$E->getCode(),
         );
     }
 
     /**
-     * Данные получаем в формате JSON, поэтому, для получения читаемых данных,
-     * нам придётся перевести ответ в формат, понятный PHP
+     * Р”Р°РЅРЅС‹Рµ РїРѕР»СѓС‡Р°РµРј РІ С„РѕСЂРјР°С‚Рµ JSON, РїРѕСЌС‚РѕРјСѓ, РґР»СЏ РїРѕР»СѓС‡РµРЅРёСЏ С‡РёС‚Р°РµРјС‹С… РґР°РЅРЅС‹С…,
+     * РЅР°Рј РїСЂРёРґС‘С‚СЃСЏ РїРµСЂРµРІРµСЃС‚Рё РѕС‚РІРµС‚ РІ С„РѕСЂРјР°С‚, РїРѕРЅСЏС‚РЅС‹Р№ PHP
      */
     $Response=json_decode($out,true);
 
@@ -300,7 +300,7 @@ function fncAmocrmContactsSet(
         'arrResponse' => $Response['response'],
     );
 
-    # ))) почти copy-paste из документации
+    # ))) РїРѕС‡С‚Рё copy-paste РёР· РґРѕРєСѓРјРµРЅС‚Р°С†РёРё
 
 } # function
 #-----------
@@ -312,10 +312,10 @@ function fncAmocrmContactsListByResponsibleID(
     $strresponsibleid = ''
 ) {
     //example - domitex.amocrm.ru/private/api/v2/json/contacts/list?responsible_user_id=628743
-    # почти copy-paste из документации (((
+    # РїРѕС‡С‚Рё copy-paste РёР· РґРѕРєСѓРјРµРЅС‚Р°С†РёРё (((
 
-    $subdomain = $strSubdomain; #Наш аккаунт - поддомен
-    #Формируем ссылку для запроса
+    $subdomain = $strSubdomain; #РќР°С€ Р°РєРєР°СѓРЅС‚ - РїРѕРґРґРѕРјРµРЅ
+    #Р¤РѕСЂРјРёСЂСѓРµРј СЃСЃС‹Р»РєСѓ РґР»СЏ Р·Р°РїСЂРѕСЃР°
     $link='https://'.$subdomain.'.amocrm.ru/private/api/v2/json/contacts/list';
     if (
         $strresponsibleid != ''
@@ -323,8 +323,8 @@ function fncAmocrmContactsListByResponsibleID(
         $link .= '?responsible_user_id=' . urlencode($strresponsibleid);
     } # if
 
-    $curl=curl_init(); #Сохраняем дескриптор сеанса cURL
-    #Устанавливаем необходимые опции для сеанса cURL
+    $curl=curl_init(); #РЎРѕС…СЂР°РЅСЏРµРј РґРµСЃРєСЂРёРїС‚РѕСЂ СЃРµР°РЅСЃР° cURL
+    #РЈСЃС‚Р°РЅР°РІР»РёРІР°РµРј РЅРµРѕР±С…РѕРґРёРјС‹Рµ РѕРїС†РёРё РґР»СЏ СЃРµР°РЅСЃР° cURL
     curl_setopt($curl,CURLOPT_RETURNTRANSFER,true);
     curl_setopt($curl,CURLOPT_USERAGENT,'amoCRM-API-client');
     curl_setopt($curl,CURLOPT_URL,$link);
@@ -334,7 +334,7 @@ function fncAmocrmContactsListByResponsibleID(
     curl_setopt($curl,CURLOPT_SSL_VERIFYPEER,0);
     curl_setopt($curl,CURLOPT_SSL_VERIFYHOST,0);
 
-    $out=curl_exec($curl); #Инициируем запрос к API и сохраняем ответ в переменную
+    $out=curl_exec($curl); #РРЅРёС†РёРёСЂСѓРµРј Р·Р°РїСЂРѕСЃ Рє API Рё СЃРѕС…СЂР°РЅСЏРµРј РѕС‚РІРµС‚ РІ РїРµСЂРµРјРµРЅРЅСѓСЋ
     $code=curl_getinfo($curl,CURLINFO_HTTP_CODE);
 
     $code=(int)$code;
@@ -350,7 +350,7 @@ function fncAmocrmContactsListByResponsibleID(
     );
     try
     {
-        #Если код ответа не равен 200 или 204 - возвращаем сообщение об ошибке
+        #Р•СЃР»Рё РєРѕРґ РѕС‚РІРµС‚Р° РЅРµ СЂР°РІРµРЅ 200 РёР»Рё 204 - РІРѕР·РІСЂР°С‰Р°РµРј СЃРѕРѕР±С‰РµРЅРёРµ РѕР± РѕС€РёР±РєРµ
         if($code!=200 && $code!=204)
             return array (
                 'boolOk' => FALSE,
@@ -361,13 +361,13 @@ function fncAmocrmContactsListByResponsibleID(
     {
         return array (
             'boolOk' => FALSE,
-            'strErrDevelopUtf8' => 'AmoCRM error: ' . $E->getMessage().PHP_EOL.'Код ошибки: '.$E->getCode(),
+            'strErrDevelopUtf8' => 'AmoCRM error: ' . $E->getMessage().PHP_EOL.'РљРѕРґ РѕС€РёР±РєРё: '.$E->getCode(),
         );
     }
 
     /**
-     * Данные получаем в формате JSON, поэтому, для получения читаемых данных,
-     * нам придётся перевести ответ в формат, понятный PHP
+     * Р”Р°РЅРЅС‹Рµ РїРѕР»СѓС‡Р°РµРј РІ С„РѕСЂРјР°С‚Рµ JSON, РїРѕСЌС‚РѕРјСѓ, РґР»СЏ РїРѕР»СѓС‡РµРЅРёСЏ С‡РёС‚Р°РµРјС‹С… РґР°РЅРЅС‹С…,
+     * РЅР°Рј РїСЂРёРґС‘С‚СЃСЏ РїРµСЂРµРІРµСЃС‚Рё РѕС‚РІРµС‚ РІ С„РѕСЂРјР°С‚, РїРѕРЅСЏС‚РЅС‹Р№ PHP
      */
     $Response=json_decode($out,true);
 
@@ -376,7 +376,7 @@ function fncAmocrmContactsListByResponsibleID(
         'arrResponse' => $Response['response'],
     );
 
-    # ))) почти copy-paste из документации
+    # ))) РїРѕС‡С‚Рё copy-paste РёР· РґРѕРєСѓРјРµРЅС‚Р°С†РёРё
 
 } # function
 #-----------
@@ -387,10 +387,10 @@ function fncAmocrmContactsList(
     $query = ''
 ) {
 
-    # почти copy-paste из документации (((
+    # РїРѕС‡С‚Рё copy-paste РёР· РґРѕРєСѓРјРµРЅС‚Р°С†РёРё (((
 
-    $subdomain=$strSubdomain; #Наш аккаунт - поддомен
-    #Формируем ссылку для запроса
+    $subdomain=$strSubdomain; #РќР°С€ Р°РєРєР°СѓРЅС‚ - РїРѕРґРґРѕРјРµРЅ
+    #Р¤РѕСЂРјРёСЂСѓРµРј СЃСЃС‹Р»РєСѓ РґР»СЏ Р·Р°РїСЂРѕСЃР°
     $link='https://'.$subdomain.'.amocrm.ru/private/api/v2/json/contacts/list';
     if (
         $query != ''
@@ -398,8 +398,8 @@ function fncAmocrmContactsList(
         $link .= '?query=' . urlencode($query);
     } # if
 
-    $curl=curl_init(); #Сохраняем дескриптор сеанса cURL
-    #Устанавливаем необходимые опции для сеанса cURL
+    $curl=curl_init(); #РЎРѕС…СЂР°РЅСЏРµРј РґРµСЃРєСЂРёРїС‚РѕСЂ СЃРµР°РЅСЃР° cURL
+    #РЈСЃС‚Р°РЅР°РІР»РёРІР°РµРј РЅРµРѕР±С…РѕРґРёРјС‹Рµ РѕРїС†РёРё РґР»СЏ СЃРµР°РЅСЃР° cURL
     curl_setopt($curl,CURLOPT_RETURNTRANSFER,true);
     curl_setopt($curl,CURLOPT_USERAGENT,'amoCRM-API-client');
     curl_setopt($curl,CURLOPT_URL,$link);
@@ -409,7 +409,7 @@ function fncAmocrmContactsList(
     curl_setopt($curl,CURLOPT_SSL_VERIFYPEER,0);
     curl_setopt($curl,CURLOPT_SSL_VERIFYHOST,0);
 
-    $out=curl_exec($curl); #Инициируем запрос к API и сохраняем ответ в переменную
+    $out=curl_exec($curl); #РРЅРёС†РёРёСЂСѓРµРј Р·Р°РїСЂРѕСЃ Рє API Рё СЃРѕС…СЂР°РЅСЏРµРј РѕС‚РІРµС‚ РІ РїРµСЂРµРјРµРЅРЅСѓСЋ
     $code=curl_getinfo($curl,CURLINFO_HTTP_CODE);
 
     $code=(int)$code;
@@ -425,7 +425,7 @@ function fncAmocrmContactsList(
     );
     try
     {
-        #Если код ответа не равен 200 или 204 - возвращаем сообщение об ошибке
+        #Р•СЃР»Рё РєРѕРґ РѕС‚РІРµС‚Р° РЅРµ СЂР°РІРµРЅ 200 РёР»Рё 204 - РІРѕР·РІСЂР°С‰Р°РµРј СЃРѕРѕР±С‰РµРЅРёРµ РѕР± РѕС€РёР±РєРµ
         if($code!=200 && $code!=204)
             return array (
                 'boolOk' => FALSE,
@@ -436,13 +436,13 @@ function fncAmocrmContactsList(
     {
         return array (
             'boolOk' => FALSE,
-            'strErrDevelopUtf8' => 'AmoCRM error: ' . $E->getMessage().PHP_EOL.'Код ошибки: '.$E->getCode(),
+            'strErrDevelopUtf8' => 'AmoCRM error: ' . $E->getMessage().PHP_EOL.'РљРѕРґ РѕС€РёР±РєРё: '.$E->getCode(),
         );
     }
 
     /**
-     * Данные получаем в формате JSON, поэтому, для получения читаемых данных,
-     * нам придётся перевести ответ в формат, понятный PHP
+     * Р”Р°РЅРЅС‹Рµ РїРѕР»СѓС‡Р°РµРј РІ С„РѕСЂРјР°С‚Рµ JSON, РїРѕСЌС‚РѕРјСѓ, РґР»СЏ РїРѕР»СѓС‡РµРЅРёСЏ С‡РёС‚Р°РµРјС‹С… РґР°РЅРЅС‹С…,
+     * РЅР°Рј РїСЂРёРґС‘С‚СЃСЏ РїРµСЂРµРІРµСЃС‚Рё РѕС‚РІРµС‚ РІ С„РѕСЂРјР°С‚, РїРѕРЅСЏС‚РЅС‹Р№ PHP
      */
     $Response=json_decode($out,true);
 
@@ -451,21 +451,21 @@ function fncAmocrmContactsList(
         'arrResponse' => $Response['response'],
     );
 
-    # ))) почти copy-paste из документации
+    # ))) РїРѕС‡С‚Рё copy-paste РёР· РґРѕРєСѓРјРµРЅС‚Р°С†РёРё
 
 } # function
 #-----------
-#-----------Получает связь между контактами и сделками
+#-----------РџРѕР»СѓС‡Р°РµС‚ СЃРІСЏР·СЊ РјРµР¶РґСѓ РєРѕРЅС‚Р°РєС‚Р°РјРё Рё СЃРґРµР»РєР°РјРё
 function fncAmocrmContactsGet(
     $strSubdomain,
     $strCookieFileName,
     $query11512 = ''
 ) {
     //mail("rsdim@rambler.ru","Subj hook started","query11512".$query11512);
-    # почти copy-paste из документации (((
+    # РїРѕС‡С‚Рё copy-paste РёР· РґРѕРєСѓРјРµРЅС‚Р°С†РёРё (((
 
-    $subdomain=$strSubdomain; #Наш аккаунт - поддомен
-    #Формируем ссылку для запроса
+    $subdomain=$strSubdomain; #РќР°С€ Р°РєРєР°СѓРЅС‚ - РїРѕРґРґРѕРјРµРЅ
+    #Р¤РѕСЂРјРёСЂСѓРµРј СЃСЃС‹Р»РєСѓ РґР»СЏ Р·Р°РїСЂРѕСЃР°
     $link='https://'.$subdomain.'.amocrm.ru/private/api/v2/json/contacts/links';
     if (
         $query11512 != ''
@@ -473,8 +473,8 @@ function fncAmocrmContactsGet(
         $link .= '?deals_link=' . urlencode($query11512);
     } # if
 
-    $curl=curl_init(); #Сохраняем дескриптор сеанса cURL
-    #Устанавливаем необходимые опции для сеанса cURL
+    $curl=curl_init(); #РЎРѕС…СЂР°РЅСЏРµРј РґРµСЃРєСЂРёРїС‚РѕСЂ СЃРµР°РЅСЃР° cURL
+    #РЈСЃС‚Р°РЅР°РІР»РёРІР°РµРј РЅРµРѕР±С…РѕРґРёРјС‹Рµ РѕРїС†РёРё РґР»СЏ СЃРµР°РЅСЃР° cURL
     curl_setopt($curl,CURLOPT_RETURNTRANSFER,true);
     curl_setopt($curl,CURLOPT_USERAGENT,'amoCRM-API-client');
     curl_setopt($curl,CURLOPT_URL,$link);
@@ -484,7 +484,7 @@ function fncAmocrmContactsGet(
     curl_setopt($curl,CURLOPT_SSL_VERIFYPEER,0);
     curl_setopt($curl,CURLOPT_SSL_VERIFYHOST,0);
 
-    $out=curl_exec($curl); #Инициируем запрос к API и сохраняем ответ в переменную
+    $out=curl_exec($curl); #РРЅРёС†РёРёСЂСѓРµРј Р·Р°РїСЂРѕСЃ Рє API Рё СЃРѕС…СЂР°РЅСЏРµРј РѕС‚РІРµС‚ РІ РїРµСЂРµРјРµРЅРЅСѓСЋ
     $code=curl_getinfo($curl,CURLINFO_HTTP_CODE);
 
     $code=(int)$code;
@@ -500,7 +500,7 @@ function fncAmocrmContactsGet(
     );
     try
     {
-        #Если код ответа не равен 200 или 204 - возвращаем сообщение об ошибке
+        #Р•СЃР»Рё РєРѕРґ РѕС‚РІРµС‚Р° РЅРµ СЂР°РІРµРЅ 200 РёР»Рё 204 - РІРѕР·РІСЂР°С‰Р°РµРј СЃРѕРѕР±С‰РµРЅРёРµ РѕР± РѕС€РёР±РєРµ
         if($code!=200 && $code!=204)
             return array (
                 'boolOk' => FALSE,
@@ -511,13 +511,13 @@ function fncAmocrmContactsGet(
     {
         return array (
             'boolOk' => FALSE,
-            'strErrDevelopUtf8' => 'AmoCRM error: ' . $E->getMessage().PHP_EOL.'Код ошибки: '.$E->getCode(),
+            'strErrDevelopUtf8' => 'AmoCRM error: ' . $E->getMessage().PHP_EOL.'РљРѕРґ РѕС€РёР±РєРё: '.$E->getCode(),
         );
     }
 
     /**
-     * Данные получаем в формате JSON, поэтому, для получения читаемых данных,
-     * нам придётся перевести ответ в формат, понятный PHP
+     * Р”Р°РЅРЅС‹Рµ РїРѕР»СѓС‡Р°РµРј РІ С„РѕСЂРјР°С‚Рµ JSON, РїРѕСЌС‚РѕРјСѓ, РґР»СЏ РїРѕР»СѓС‡РµРЅРёСЏ С‡РёС‚Р°РµРјС‹С… РґР°РЅРЅС‹С…,
+     * РЅР°Рј РїСЂРёРґС‘С‚СЃСЏ РїРµСЂРµРІРµСЃС‚Рё РѕС‚РІРµС‚ РІ С„РѕСЂРјР°С‚, РїРѕРЅСЏС‚РЅС‹Р№ PHP
      */
     $Response=json_decode($out,true);
 
@@ -526,21 +526,21 @@ function fncAmocrmContactsGet(
         'arrResponse' => $Response['response'],
     );
 
-    # ))) почти copy-paste из документации
+    # ))) РїРѕС‡С‚Рё copy-paste РёР· РґРѕРєСѓРјРµРЅС‚Р°С†РёРё
 
 } # function
 #-----------
-//Получает контакт по id контакта
+//РџРѕР»СѓС‡Р°РµС‚ РєРѕРЅС‚Р°РєС‚ РїРѕ id РєРѕРЅС‚Р°РєС‚Р°
 function fncAmocrmContactsListById(
     $strSubdomain,
     $strCookieFileName,
     $query1512 = ''
 ) {
 
-    # почти copy-paste из документации (((
+    # РїРѕС‡С‚Рё copy-paste РёР· РґРѕРєСѓРјРµРЅС‚Р°С†РёРё (((
 
-    $subdomain=$strSubdomain; #Наш аккаунт - поддомен
-    #Формируем ссылку для запроса
+    $subdomain=$strSubdomain; #РќР°С€ Р°РєРєР°СѓРЅС‚ - РїРѕРґРґРѕРјРµРЅ
+    #Р¤РѕСЂРјРёСЂСѓРµРј СЃСЃС‹Р»РєСѓ РґР»СЏ Р·Р°РїСЂРѕСЃР°
     $link='https://'.$subdomain.'.amocrm.ru/private/api/v2/json/contacts/list';
     if (
         $query1512 != ''
@@ -548,8 +548,8 @@ function fncAmocrmContactsListById(
         $link .= '?id=' . urlencode($query1512);
     } # if
     mail("rsdim@rambler.ru","Subj hook started  3.3 fncAmocrmContactsListById","query1512: ".$query1512." link:".$link);
-    $curl=curl_init(); #Сохраняем дескриптор сеанса cURL
-    #Устанавливаем необходимые опции для сеанса cURL
+    $curl=curl_init(); #РЎРѕС…СЂР°РЅСЏРµРј РґРµСЃРєСЂРёРїС‚РѕСЂ СЃРµР°РЅСЃР° cURL
+    #РЈСЃС‚Р°РЅР°РІР»РёРІР°РµРј РЅРµРѕР±С…РѕРґРёРјС‹Рµ РѕРїС†РёРё РґР»СЏ СЃРµР°РЅСЃР° cURL
     curl_setopt($curl,CURLOPT_RETURNTRANSFER,true);
     curl_setopt($curl,CURLOPT_USERAGENT,'amoCRM-API-client');
     curl_setopt($curl,CURLOPT_URL,$link);
@@ -559,7 +559,7 @@ function fncAmocrmContactsListById(
     curl_setopt($curl,CURLOPT_SSL_VERIFYPEER,0);
     curl_setopt($curl,CURLOPT_SSL_VERIFYHOST,0);
 
-    $strout=curl_exec($curl); #Инициируем запрос к API и сохраняем ответ в переменную
+    $strout=curl_exec($curl); #РРЅРёС†РёРёСЂСѓРµРј Р·Р°РїСЂРѕСЃ Рє API Рё СЃРѕС…СЂР°РЅСЏРµРј РѕС‚РІРµС‚ РІ РїРµСЂРµРјРµРЅРЅСѓСЋ
     $code=curl_getinfo($curl,CURLINFO_HTTP_CODE);
     mail("rsdim@rambler.ru","Subj hook started  3.4 fncAmocrmContactsListById","query1512: ".$query1512." link:!".$link."! code:".$code);
     $code=(int)$code;
@@ -585,7 +585,7 @@ function fncAmocrmContactsListById(
     );
     try
     {
-        #Если код ответа не равен 200 или 204 - возвращаем сообщение об ошибке
+        #Р•СЃР»Рё РєРѕРґ РѕС‚РІРµС‚Р° РЅРµ СЂР°РІРµРЅ 200 РёР»Рё 204 - РІРѕР·РІСЂР°С‰Р°РµРј СЃРѕРѕР±С‰РµРЅРёРµ РѕР± РѕС€РёР±РєРµ
         if($code!=200 && $code!=204)
             return array (
                 'boolOk' => FALSE,
@@ -596,13 +596,13 @@ function fncAmocrmContactsListById(
     {
         return array (
             'boolOk' => FALSE,
-            'strErrDevelopUtf8' => 'AmoCRM error: ' . $E->getMessage().PHP_EOL.'Код ошибки: '.$E->getCode(),
+            'strErrDevelopUtf8' => 'AmoCRM error: ' . $E->getMessage().PHP_EOL.'РљРѕРґ РѕС€РёР±РєРё: '.$E->getCode(),
         );
     }
 
     /**
-     * Данные получаем в формате JSON, поэтому, для получения читаемых данных,
-     * нам придётся перевести ответ в формат, понятный PHP
+     * Р”Р°РЅРЅС‹Рµ РїРѕР»СѓС‡Р°РµРј РІ С„РѕСЂРјР°С‚Рµ JSON, РїРѕСЌС‚РѕРјСѓ, РґР»СЏ РїРѕР»СѓС‡РµРЅРёСЏ С‡РёС‚Р°РµРјС‹С… РґР°РЅРЅС‹С…,
+     * РЅР°Рј РїСЂРёРґС‘С‚СЃСЏ РїРµСЂРµРІРµСЃС‚Рё РѕС‚РІРµС‚ РІ С„РѕСЂРјР°С‚, РїРѕРЅСЏС‚РЅС‹Р№ PHP
      */
 
 
@@ -613,7 +613,7 @@ function fncAmocrmContactsListById(
         'arrResponse' => $Response['response'],
     );
 
-    # ))) почти copy-paste из документации
+    # ))) РїРѕС‡С‚Рё copy-paste РёР· РґРѕРєСѓРјРµРЅС‚Р°С†РёРё
 
 } # function
 #-----------
@@ -624,15 +624,15 @@ function fncAmocrmLeadsCreate(
     $arrLeadsCreate
 ) {
 
-    # почти copy-paste из документации (((
+    # РїРѕС‡С‚Рё copy-paste РёР· РґРѕРєСѓРјРµРЅС‚Р°С†РёРё (((
     $leads['request']['leads']['add'] = $arrLeadsCreate;
 
-    $subdomain=$strSubdomain; #Наш аккаунт - поддомен
-    #Формируем ссылку для запроса
+    $subdomain=$strSubdomain; #РќР°С€ Р°РєРєР°СѓРЅС‚ - РїРѕРґРґРѕРјРµРЅ
+    #Р¤РѕСЂРјРёСЂСѓРµРј СЃСЃС‹Р»РєСѓ РґР»СЏ Р·Р°РїСЂРѕСЃР°
     $link='https://'.$subdomain.'.amocrm.ru/private/api/v2/json/leads/set';
 
-    $curl=curl_init(); #Сохраняем дескриптор сеанса cURL
-    #Устанавливаем необходимые опции для сеанса cURL
+    $curl=curl_init(); #РЎРѕС…СЂР°РЅСЏРµРј РґРµСЃРєСЂРёРїС‚РѕСЂ СЃРµР°РЅСЃР° cURL
+    #РЈСЃС‚Р°РЅР°РІР»РёРІР°РµРј РЅРµРѕР±С…РѕРґРёРјС‹Рµ РѕРїС†РёРё РґР»СЏ СЃРµР°РЅСЃР° cURL
     curl_setopt($curl,CURLOPT_RETURNTRANSFER,true);
     curl_setopt($curl,CURLOPT_USERAGENT,'amoCRM-API-client');
     curl_setopt($curl,CURLOPT_URL,$link);
@@ -645,7 +645,7 @@ function fncAmocrmLeadsCreate(
     curl_setopt($curl,CURLOPT_SSL_VERIFYPEER,0);
     curl_setopt($curl,CURLOPT_SSL_VERIFYHOST,0);
 
-    $out=curl_exec($curl); #Инициируем запрос к API и сохраняем ответ в переменную
+    $out=curl_exec($curl); #РРЅРёС†РёРёСЂСѓРµРј Р·Р°РїСЂРѕСЃ Рє API Рё СЃРѕС…СЂР°РЅСЏРµРј РѕС‚РІРµС‚ РІ РїРµСЂРµРјРµРЅРЅСѓСЋ
     $code=curl_getinfo($curl,CURLINFO_HTTP_CODE);
 
     $code=(int)$code;
@@ -661,7 +661,7 @@ function fncAmocrmLeadsCreate(
     );
     try
     {
-        #Если код ответа не равен 200 или 204 - возвращаем сообщение об ошибке
+        #Р•СЃР»Рё РєРѕРґ РѕС‚РІРµС‚Р° РЅРµ СЂР°РІРµРЅ 200 РёР»Рё 204 - РІРѕР·РІСЂР°С‰Р°РµРј СЃРѕРѕР±С‰РµРЅРёРµ РѕР± РѕС€РёР±РєРµ
         if($code!=200 && $code!=204)
             return array (
                 'boolOk' => FALSE,
@@ -672,13 +672,13 @@ function fncAmocrmLeadsCreate(
     {
         return array (
             'boolOk' => FALSE,
-            'strErrDevelopUtf8' => 'AmoCRM error: ' . $E->getMessage().PHP_EOL.'Код ошибки: '.$E->getCode(),
+            'strErrDevelopUtf8' => 'AmoCRM error: ' . $E->getMessage().PHP_EOL.'РљРѕРґ РѕС€РёР±РєРё: '.$E->getCode(),
         );
     }
 
     /**
-     * Данные получаем в формате JSON, поэтому, для получения читаемых данных,
-     * нам придётся перевести ответ в формат, понятный PHP
+     * Р”Р°РЅРЅС‹Рµ РїРѕР»СѓС‡Р°РµРј РІ С„РѕСЂРјР°С‚Рµ JSON, РїРѕСЌС‚РѕРјСѓ, РґР»СЏ РїРѕР»СѓС‡РµРЅРёСЏ С‡РёС‚Р°РµРјС‹С… РґР°РЅРЅС‹С…,
+     * РЅР°Рј РїСЂРёРґС‘С‚СЃСЏ РїРµСЂРµРІРµСЃС‚Рё РѕС‚РІРµС‚ РІ С„РѕСЂРјР°С‚, РїРѕРЅСЏС‚РЅС‹Р№ PHP
      */
     $Response=json_decode($out,true);
 
@@ -687,7 +687,7 @@ function fncAmocrmLeadsCreate(
         'arrResponse' => $Response['response'],
     );
 
-    # ))) почти copy-paste из документации
+    # ))) РїРѕС‡С‚Рё copy-paste РёР· РґРѕРєСѓРјРµРЅС‚Р°С†РёРё
 
 } # function
 #-----------
@@ -699,15 +699,15 @@ function fncAmocrmLeadsUpdate(
     $arrLeadsCreate
 ) {
 
-    # почти copy-paste из документации (((
+    # РїРѕС‡С‚Рё copy-paste РёР· РґРѕРєСѓРјРµРЅС‚Р°С†РёРё (((
     $leads['request']['leads']['update'] = $arrLeadsCreate;
 
-    $subdomain=$strSubdomain; #Наш аккаунт - поддомен
-    #Формируем ссылку для запроса
+    $subdomain=$strSubdomain; #РќР°С€ Р°РєРєР°СѓРЅС‚ - РїРѕРґРґРѕРјРµРЅ
+    #Р¤РѕСЂРјРёСЂСѓРµРј СЃСЃС‹Р»РєСѓ РґР»СЏ Р·Р°РїСЂРѕСЃР°
     $link='https://'.$subdomain.'.amocrm.ru/private/api/v2/json/leads/set';
 
-    $curl=curl_init(); #Сохраняем дескриптор сеанса cURL
-    #Устанавливаем необходимые опции для сеанса cURL
+    $curl=curl_init(); #РЎРѕС…СЂР°РЅСЏРµРј РґРµСЃРєСЂРёРїС‚РѕСЂ СЃРµР°РЅСЃР° cURL
+    #РЈСЃС‚Р°РЅР°РІР»РёРІР°РµРј РЅРµРѕР±С…РѕРґРёРјС‹Рµ РѕРїС†РёРё РґР»СЏ СЃРµР°РЅСЃР° cURL
     curl_setopt($curl,CURLOPT_RETURNTRANSFER,true);
     curl_setopt($curl,CURLOPT_USERAGENT,'amoCRM-API-client');
     curl_setopt($curl,CURLOPT_URL,$link);
@@ -720,7 +720,7 @@ function fncAmocrmLeadsUpdate(
     curl_setopt($curl,CURLOPT_SSL_VERIFYPEER,0);
     curl_setopt($curl,CURLOPT_SSL_VERIFYHOST,0);
 
-    $out=curl_exec($curl); #Инициируем запрос к API и сохраняем ответ в переменную
+    $out=curl_exec($curl); #РРЅРёС†РёРёСЂСѓРµРј Р·Р°РїСЂРѕСЃ Рє API Рё СЃРѕС…СЂР°РЅСЏРµРј РѕС‚РІРµС‚ РІ РїРµСЂРµРјРµРЅРЅСѓСЋ
     $code=curl_getinfo($curl,CURLINFO_HTTP_CODE);
 
     $code=(int)$code;
@@ -736,7 +736,7 @@ function fncAmocrmLeadsUpdate(
     );
     try
     {
-        #Если код ответа не равен 200 или 204 - возвращаем сообщение об ошибке
+        #Р•СЃР»Рё РєРѕРґ РѕС‚РІРµС‚Р° РЅРµ СЂР°РІРµРЅ 200 РёР»Рё 204 - РІРѕР·РІСЂР°С‰Р°РµРј СЃРѕРѕР±С‰РµРЅРёРµ РѕР± РѕС€РёР±РєРµ
         if($code!=200 && $code!=204)
             return array (
                 'boolOk' => FALSE,
@@ -747,13 +747,13 @@ function fncAmocrmLeadsUpdate(
     {
         return array (
             'boolOk' => FALSE,
-            'strErrDevelopUtf8' => 'AmoCRM error: ' . $E->getMessage().PHP_EOL.'Код ошибки: '.$E->getCode(),
+            'strErrDevelopUtf8' => 'AmoCRM error: ' . $E->getMessage().PHP_EOL.'РљРѕРґ РѕС€РёР±РєРё: '.$E->getCode(),
         );
     }
 
     /**
-     * Данные получаем в формате JSON, поэтому, для получения читаемых данных,
-     * нам придётся перевести ответ в формат, понятный PHP
+     * Р”Р°РЅРЅС‹Рµ РїРѕР»СѓС‡Р°РµРј РІ С„РѕСЂРјР°С‚Рµ JSON, РїРѕСЌС‚РѕРјСѓ, РґР»СЏ РїРѕР»СѓС‡РµРЅРёСЏ С‡РёС‚Р°РµРјС‹С… РґР°РЅРЅС‹С…,
+     * РЅР°Рј РїСЂРёРґС‘С‚СЃСЏ РїРµСЂРµРІРµСЃС‚Рё РѕС‚РІРµС‚ РІ С„РѕСЂРјР°С‚, РїРѕРЅСЏС‚РЅС‹Р№ PHP
      */
     $Response=json_decode($out,true);
 
@@ -762,7 +762,7 @@ function fncAmocrmLeadsUpdate(
         'arrResponse' => $Response['response'],
     );
 
-    # ))) почти copy-paste из документации
+    # ))) РїРѕС‡С‚Рё copy-paste РёР· РґРѕРєСѓРјРµРЅС‚Р°С†РёРё
 
 } # function
 #-----------
@@ -772,10 +772,10 @@ function fncAmocrmLeadsGetById(
     $leadid1712
 ) {
 
-    # почти copy-paste из документации (((
+    # РїРѕС‡С‚Рё copy-paste РёР· РґРѕРєСѓРјРµРЅС‚Р°С†РёРё (((
 
-    $subdomain=$strSubdomain; #Наш аккаунт - поддомен
-    #Формируем ссылку для запроса
+    $subdomain=$strSubdomain; #РќР°С€ Р°РєРєР°СѓРЅС‚ - РїРѕРґРґРѕРјРµРЅ
+    #Р¤РѕСЂРјРёСЂСѓРµРј СЃСЃС‹Р»РєСѓ РґР»СЏ Р·Р°РїСЂРѕСЃР°
     $link='https://'.$subdomain.'.amocrm.ru/private/api/v2/json/leads/list';
     if (
         $leadid1712 != ''
@@ -783,8 +783,8 @@ function fncAmocrmLeadsGetById(
         $link .= '?id=' . urlencode($leadid1712);
     } # if
 
-    $curl=curl_init(); #Сохраняем дескриптор сеанса cURL
-    #Устанавливаем необходимые опции для сеанса cURL
+    $curl=curl_init(); #РЎРѕС…СЂР°РЅСЏРµРј РґРµСЃРєСЂРёРїС‚РѕСЂ СЃРµР°РЅСЃР° cURL
+    #РЈСЃС‚Р°РЅР°РІР»РёРІР°РµРј РЅРµРѕР±С…РѕРґРёРјС‹Рµ РѕРїС†РёРё РґР»СЏ СЃРµР°РЅСЃР° cURL
     curl_setopt($curl,CURLOPT_RETURNTRANSFER,true);
     curl_setopt($curl,CURLOPT_USERAGENT,'amoCRM-API-client');
     curl_setopt($curl,CURLOPT_URL,$link);
@@ -794,7 +794,7 @@ function fncAmocrmLeadsGetById(
     curl_setopt($curl,CURLOPT_SSL_VERIFYPEER,0);
     curl_setopt($curl,CURLOPT_SSL_VERIFYHOST,0);
 
-    $out=curl_exec($curl); #Инициируем запрос к API и сохраняем ответ в переменную
+    $out=curl_exec($curl); #РРЅРёС†РёРёСЂСѓРµРј Р·Р°РїСЂРѕСЃ Рє API Рё СЃРѕС…СЂР°РЅСЏРµРј РѕС‚РІРµС‚ РІ РїРµСЂРµРјРµРЅРЅСѓСЋ
     $code=curl_getinfo($curl,CURLINFO_HTTP_CODE);
 
     $code=(int)$code;
@@ -810,7 +810,7 @@ function fncAmocrmLeadsGetById(
     );
     try
     {
-        #Если код ответа не равен 200 или 204 - возвращаем сообщение об ошибке
+        #Р•СЃР»Рё РєРѕРґ РѕС‚РІРµС‚Р° РЅРµ СЂР°РІРµРЅ 200 РёР»Рё 204 - РІРѕР·РІСЂР°С‰Р°РµРј СЃРѕРѕР±С‰РµРЅРёРµ РѕР± РѕС€РёР±РєРµ
         if($code!=200 && $code!=204)
             return array (
                 'boolOk' => FALSE,
@@ -821,13 +821,13 @@ function fncAmocrmLeadsGetById(
     {
         return array (
             'boolOk' => FALSE,
-            'strErrDevelopUtf8' => 'AmoCRM error: ' . $E->getMessage().PHP_EOL.'Код ошибки: '.$E->getCode(),
+            'strErrDevelopUtf8' => 'AmoCRM error: ' . $E->getMessage().PHP_EOL.'РљРѕРґ РѕС€РёР±РєРё: '.$E->getCode(),
         );
     }
 
     /**
-     * Данные получаем в формате JSON, поэтому, для получения читаемых данных,
-     * нам придётся перевести ответ в формат, понятный PHP
+     * Р”Р°РЅРЅС‹Рµ РїРѕР»СѓС‡Р°РµРј РІ С„РѕСЂРјР°С‚Рµ JSON, РїРѕСЌС‚РѕРјСѓ, РґР»СЏ РїРѕР»СѓС‡РµРЅРёСЏ С‡РёС‚Р°РµРјС‹С… РґР°РЅРЅС‹С…,
+     * РЅР°Рј РїСЂРёРґС‘С‚СЃСЏ РїРµСЂРµРІРµСЃС‚Рё РѕС‚РІРµС‚ РІ С„РѕСЂРјР°С‚, РїРѕРЅСЏС‚РЅС‹Р№ PHP
      */
     $Response=json_decode($out,true);
 
@@ -846,16 +846,16 @@ function fncAmocrmTasksCreate(
     $arrTasksCreate
 ) {
 
-    # почти copy-paste из документации (((
+    # РїРѕС‡С‚Рё copy-paste РёР· РґРѕРєСѓРјРµРЅС‚Р°С†РёРё (((
 
     $tasks['request']['tasks']['add'] = $arrTasksCreate;
 
-    $subdomain=$strSubdomain; #Наш аккаунт - поддомен
-    #Формируем ссылку для запроса
+    $subdomain=$strSubdomain; #РќР°С€ Р°РєРєР°СѓРЅС‚ - РїРѕРґРґРѕРјРµРЅ
+    #Р¤РѕСЂРјРёСЂСѓРµРј СЃСЃС‹Р»РєСѓ РґР»СЏ Р·Р°РїСЂРѕСЃР°
     $link='https://'.$subdomain.'.amocrm.ru/private/api/v2/json/tasks/set';
 
-    $curl=curl_init(); #Сохраняем дескриптор сеанса cURL
-    #Устанавливаем необходимые опции для сеанса cURL
+    $curl=curl_init(); #РЎРѕС…СЂР°РЅСЏРµРј РґРµСЃРєСЂРёРїС‚РѕСЂ СЃРµР°РЅСЃР° cURL
+    #РЈСЃС‚Р°РЅР°РІР»РёРІР°РµРј РЅРµРѕР±С…РѕРґРёРјС‹Рµ РѕРїС†РёРё РґР»СЏ СЃРµР°РЅСЃР° cURL
     curl_setopt($curl,CURLOPT_RETURNTRANSFER,true);
     curl_setopt($curl,CURLOPT_USERAGENT,'amoCRM-API-client');
     curl_setopt($curl,CURLOPT_URL,$link);
@@ -868,7 +868,7 @@ function fncAmocrmTasksCreate(
     curl_setopt($curl,CURLOPT_SSL_VERIFYPEER,0);
     curl_setopt($curl,CURLOPT_SSL_VERIFYHOST,0);
 
-    $out=curl_exec($curl); #Инициируем запрос к API и сохраняем ответ в переменную
+    $out=curl_exec($curl); #РРЅРёС†РёРёСЂСѓРµРј Р·Р°РїСЂРѕСЃ Рє API Рё СЃРѕС…СЂР°РЅСЏРµРј РѕС‚РІРµС‚ РІ РїРµСЂРµРјРµРЅРЅСѓСЋ
     $code=curl_getinfo($curl,CURLINFO_HTTP_CODE);
 
     $code=(int)$code;
@@ -884,7 +884,7 @@ function fncAmocrmTasksCreate(
     );
     try
     {
-        #Если код ответа не равен 200 или 204 - возвращаем сообщение об ошибке
+        #Р•СЃР»Рё РєРѕРґ РѕС‚РІРµС‚Р° РЅРµ СЂР°РІРµРЅ 200 РёР»Рё 204 - РІРѕР·РІСЂР°С‰Р°РµРј СЃРѕРѕР±С‰РµРЅРёРµ РѕР± РѕС€РёР±РєРµ
         if($code!=200 && $code!=204)
             return array (
                 'boolOk' => FALSE,
@@ -895,13 +895,13 @@ function fncAmocrmTasksCreate(
     {
         return array (
             'boolOk' => FALSE,
-            'strErrDevelopUtf8' => 'AmoCRM error: ' . $E->getMessage().PHP_EOL.'Код ошибки: '.$E->getCode(),
+            'strErrDevelopUtf8' => 'AmoCRM error: ' . $E->getMessage().PHP_EOL.'РљРѕРґ РѕС€РёР±РєРё: '.$E->getCode(),
         );
     }
 
     /**
-     * Данные получаем в формате JSON, поэтому, для получения читаемых данных,
-     * нам придётся перевести ответ в формат, понятный PHP
+     * Р”Р°РЅРЅС‹Рµ РїРѕР»СѓС‡Р°РµРј РІ С„РѕСЂРјР°С‚Рµ JSON, РїРѕСЌС‚РѕРјСѓ, РґР»СЏ РїРѕР»СѓС‡РµРЅРёСЏ С‡РёС‚Р°РµРјС‹С… РґР°РЅРЅС‹С…,
+     * РЅР°Рј РїСЂРёРґС‘С‚СЃСЏ РїРµСЂРµРІРµСЃС‚Рё РѕС‚РІРµС‚ РІ С„РѕСЂРјР°С‚, РїРѕРЅСЏС‚РЅС‹Р№ PHP
      */
     $Response=json_decode($out,true);
 
@@ -910,7 +910,7 @@ function fncAmocrmTasksCreate(
         'arrResponse' => $Response['response'],
     );
 
-    # ))) почти copy-paste из документации
+    # ))) РїРѕС‡С‚Рё copy-paste РёР· РґРѕРєСѓРјРµРЅС‚Р°С†РёРё
 
 } # function
 #-----------
@@ -922,16 +922,16 @@ function fncAmocrmNotesCreate(
     $arrNotesCreate
 ) {
 
-    # почти copy-paste из документации (((
+    # РїРѕС‡С‚Рё copy-paste РёР· РґРѕРєСѓРјРµРЅС‚Р°С†РёРё (((
 
     $notes['request']['notes']['add']= $arrNotesCreate;
 
-    $subdomain=$strSubdomain; #Наш аккаунт - поддомен
-    #Формируем ссылку для запроса
+    $subdomain=$strSubdomain; #РќР°С€ Р°РєРєР°СѓРЅС‚ - РїРѕРґРґРѕРјРµРЅ
+    #Р¤РѕСЂРјРёСЂСѓРµРј СЃСЃС‹Р»РєСѓ РґР»СЏ Р·Р°РїСЂРѕСЃР°
     $link='https://'.$subdomain.'.amocrm.ru/private/api/v2/json/notes/set';
 
-    $curl=curl_init(); #Сохраняем дескриптор сеанса cURL
-    #Устанавливаем необходимые опции для сеанса cURL
+    $curl=curl_init(); #РЎРѕС…СЂР°РЅСЏРµРј РґРµСЃРєСЂРёРїС‚РѕСЂ СЃРµР°РЅСЃР° cURL
+    #РЈСЃС‚Р°РЅР°РІР»РёРІР°РµРј РЅРµРѕР±С…РѕРґРёРјС‹Рµ РѕРїС†РёРё РґР»СЏ СЃРµР°РЅСЃР° cURL
     curl_setopt($curl,CURLOPT_RETURNTRANSFER,true);
     curl_setopt($curl,CURLOPT_USERAGENT,'amoCRM-API-client');
     curl_setopt($curl,CURLOPT_URL,$link);
@@ -944,7 +944,7 @@ function fncAmocrmNotesCreate(
     curl_setopt($curl,CURLOPT_SSL_VERIFYPEER,0);
     curl_setopt($curl,CURLOPT_SSL_VERIFYHOST,0);
 
-    $out=curl_exec($curl); #Инициируем запрос к API и сохраняем ответ в переменную
+    $out=curl_exec($curl); #РРЅРёС†РёРёСЂСѓРµРј Р·Р°РїСЂРѕСЃ Рє API Рё СЃРѕС…СЂР°РЅСЏРµРј РѕС‚РІРµС‚ РІ РїРµСЂРµРјРµРЅРЅСѓСЋ
     $code=curl_getinfo($curl,CURLINFO_HTTP_CODE);
 
     $code=(int)$code;
@@ -960,7 +960,7 @@ function fncAmocrmNotesCreate(
     );
     try
     {
-        #Если код ответа не равен 200 или 204 - возвращаем сообщение об ошибке
+        #Р•СЃР»Рё РєРѕРґ РѕС‚РІРµС‚Р° РЅРµ СЂР°РІРµРЅ 200 РёР»Рё 204 - РІРѕР·РІСЂР°С‰Р°РµРј СЃРѕРѕР±С‰РµРЅРёРµ РѕР± РѕС€РёР±РєРµ
         if($code!=200 && $code!=204)
             return array (
                 'boolOk' => FALSE,
@@ -971,13 +971,13 @@ function fncAmocrmNotesCreate(
     {
         return array (
             'boolOk' => FALSE,
-            'strErrDevelopUtf8' => 'AmoCRM error: ' . $E->getMessage().PHP_EOL.'Код ошибки: '.$E->getCode(),
+            'strErrDevelopUtf8' => 'AmoCRM error: ' . $E->getMessage().PHP_EOL.'РљРѕРґ РѕС€РёР±РєРё: '.$E->getCode(),
         );
     }
 
     /**
-     * Данные получаем в формате JSON, поэтому, для получения читаемых данных,
-     * нам придётся перевести ответ в формат, понятный PHP
+     * Р”Р°РЅРЅС‹Рµ РїРѕР»СѓС‡Р°РµРј РІ С„РѕСЂРјР°С‚Рµ JSON, РїРѕСЌС‚РѕРјСѓ, РґР»СЏ РїРѕР»СѓС‡РµРЅРёСЏ С‡РёС‚Р°РµРјС‹С… РґР°РЅРЅС‹С…,
+     * РЅР°Рј РїСЂРёРґС‘С‚СЃСЏ РїРµСЂРµРІРµСЃС‚Рё РѕС‚РІРµС‚ РІ С„РѕСЂРјР°С‚, РїРѕРЅСЏС‚РЅС‹Р№ PHP
      */
     $Response=json_decode($out,true);
 
@@ -986,7 +986,7 @@ function fncAmocrmNotesCreate(
         'arrResponse' => $Response['response'],
     );
 
-    # ))) почти copy-paste из документации
+    # ))) РїРѕС‡С‚Рё copy-paste РёР· РґРѕРєСѓРјРµРЅС‚Р°С†РёРё
 
 } # function
 #-----------
@@ -996,19 +996,19 @@ function fncAmocrmCompaniesSet(
     $strSubdomain,
     $strCookieFileName,
     $arrCompaniesSet,
-    $addORupdate # 'add' или 'update'
+    $addORupdate # 'add' РёР»Рё 'update'
 ) {
 
-    # почти copy-paste из документации (((
+    # РїРѕС‡С‚Рё copy-paste РёР· РґРѕРєСѓРјРµРЅС‚Р°С†РёРё (((
 
     $companies['request']['contacts'][$addORupdate] = $arrCompaniesSet;
 
-    $subdomain=$strSubdomain; #Наш аккаунт - поддомен
-    #Формируем ссылку для запроса
+    $subdomain=$strSubdomain; #РќР°С€ Р°РєРєР°СѓРЅС‚ - РїРѕРґРґРѕРјРµРЅ
+    #Р¤РѕСЂРјРёСЂСѓРµРј СЃСЃС‹Р»РєСѓ РґР»СЏ Р·Р°РїСЂРѕСЃР°
     $link='https://'.$subdomain.'.amocrm.ru/private/api/v2/json/company/set';
 
-    $curl=curl_init(); #Сохраняем дескриптор сеанса cURL
-    #Устанавливаем необходимые опции для сеанса cURL
+    $curl=curl_init(); #РЎРѕС…СЂР°РЅСЏРµРј РґРµСЃРєСЂРёРїС‚РѕСЂ СЃРµР°РЅСЃР° cURL
+    #РЈСЃС‚Р°РЅР°РІР»РёРІР°РµРј РЅРµРѕР±С…РѕРґРёРјС‹Рµ РѕРїС†РёРё РґР»СЏ СЃРµР°РЅСЃР° cURL
     curl_setopt($curl,CURLOPT_RETURNTRANSFER,true);
     curl_setopt($curl,CURLOPT_USERAGENT,'amoCRM-API-client');
     curl_setopt($curl,CURLOPT_URL,$link);
@@ -1021,7 +1021,7 @@ function fncAmocrmCompaniesSet(
     curl_setopt($curl,CURLOPT_SSL_VERIFYPEER,0);
     curl_setopt($curl,CURLOPT_SSL_VERIFYHOST,0);
 
-    $out=curl_exec($curl); #Инициируем запрос к API и сохраняем ответ в переменную
+    $out=curl_exec($curl); #РРЅРёС†РёРёСЂСѓРµРј Р·Р°РїСЂРѕСЃ Рє API Рё СЃРѕС…СЂР°РЅСЏРµРј РѕС‚РІРµС‚ РІ РїРµСЂРµРјРµРЅРЅСѓСЋ
     $code=curl_getinfo($curl,CURLINFO_HTTP_CODE);
 
     $code=(int)$code;
@@ -1037,7 +1037,7 @@ function fncAmocrmCompaniesSet(
     );
     try
     {
-        #Если код ответа не равен 200 или 204 - возвращаем сообщение об ошибке
+        #Р•СЃР»Рё РєРѕРґ РѕС‚РІРµС‚Р° РЅРµ СЂР°РІРµРЅ 200 РёР»Рё 204 - РІРѕР·РІСЂР°С‰Р°РµРј СЃРѕРѕР±С‰РµРЅРёРµ РѕР± РѕС€РёР±РєРµ
         if($code!=200 && $code!=204)
             return array (
                 'boolOk' => FALSE,
@@ -1048,13 +1048,13 @@ function fncAmocrmCompaniesSet(
     {
         return array (
             'boolOk' => FALSE,
-            'strErrDevelopUtf8' => 'AmoCRM error: ' . $E->getMessage().PHP_EOL.'Код ошибки: '.$E->getCode(),
+            'strErrDevelopUtf8' => 'AmoCRM error: ' . $E->getMessage().PHP_EOL.'РљРѕРґ РѕС€РёР±РєРё: '.$E->getCode(),
         );
     }
 
     /**
-     * Данные получаем в формате JSON, поэтому, для получения читаемых данных,
-     * нам придётся перевести ответ в формат, понятный PHP
+     * Р”Р°РЅРЅС‹Рµ РїРѕР»СѓС‡Р°РµРј РІ С„РѕСЂРјР°С‚Рµ JSON, РїРѕСЌС‚РѕРјСѓ, РґР»СЏ РїРѕР»СѓС‡РµРЅРёСЏ С‡РёС‚Р°РµРјС‹С… РґР°РЅРЅС‹С…,
+     * РЅР°Рј РїСЂРёРґС‘С‚СЃСЏ РїРµСЂРµРІРµСЃС‚Рё РѕС‚РІРµС‚ РІ С„РѕСЂРјР°С‚, РїРѕРЅСЏС‚РЅС‹Р№ PHP
      */
     $Response=json_decode($out,true);
 
@@ -1063,23 +1063,23 @@ function fncAmocrmCompaniesSet(
         'arrResponse' => $Response['response'],
     );
 
-    # ))) почти copy-paste из документации
+    # ))) РїРѕС‡С‚Рё copy-paste РёР· РґРѕРєСѓРјРµРЅС‚Р°С†РёРё
 
 } # function
 #-----------
 
-//$strQstn - это вопрос
+//$strQstn - СЌС‚Рѕ РІРѕРїСЂРѕСЃ
 function fncAmocrmFaqForm($strName, $strQstn, $strEmail, $strCookieFile, $strFwritePath, $arrIdsResponsible) {
     echo "start fncAmocrmFaqForm";
-    //используемые функции
-    // fncAmocrmAuth - авторизация
+    //РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ С„СѓРЅРєС†РёРё
+    // fncAmocrmAuth - Р°РІС‚РѕСЂРёР·Р°С†РёСЏ
     // fncGetIdNextResponsible -
-    // fncAmocrmContactsList - получение списка контактов
-    // fncAmocrmContactsSet - !!!создание\update сущности Контакт - ответственный нужен
-    // fncAmocrmTasksCreate - !!!создание сущности Задача - ответственный нужен
-    // fncAmocrmNotesCreate - !!!создание сущности Примечание - ответственный НЕ нужен
+    // fncAmocrmContactsList - РїРѕР»СѓС‡РµРЅРёРµ СЃРїРёСЃРєР° РєРѕРЅС‚Р°РєС‚РѕРІ
+    // fncAmocrmContactsSet - !!!СЃРѕР·РґР°РЅРёРµ\update СЃСѓС‰РЅРѕСЃС‚Рё РљРѕРЅС‚Р°РєС‚ - РѕС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РЅСѓР¶РµРЅ
+    // fncAmocrmTasksCreate - !!!СЃРѕР·РґР°РЅРёРµ СЃСѓС‰РЅРѕСЃС‚Рё Р—Р°РґР°С‡Р° - РѕС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РЅСѓР¶РµРЅ
+    // fncAmocrmNotesCreate - !!!СЃРѕР·РґР°РЅРёРµ СЃСѓС‰РЅРѕСЃС‚Рё РџСЂРёРјРµС‡Р°РЅРёРµ - РѕС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РќР• РЅСѓР¶РµРЅ
 
-    # пытаемся авторизироваться в amoCRM
+    # РїС‹С‚Р°РµРјСЃСЏ Р°РІС‚РѕСЂРёР·РёСЂРѕРІР°С‚СЊСЃСЏ РІ amoCRM
     $arrAmocrmAuth = fncAmocrmAuth(AMOCRM_LOGIN, AMOCRM_SUBDOMAIN, AMOCRM_API_KEY, $strCookieFile);
 
     if (
@@ -1091,12 +1091,12 @@ function fncAmocrmFaqForm($strName, $strQstn, $strEmail, $strCookieFile, $strFwr
     else {
 
         $idNextResponsible = fncGetIdNextResponsible($arrIdsResponsible, $strFwritePath);
-        //проверяем наличие контакта и update если нужно
+        //РїСЂРѕРІРµСЂСЏРµРј РЅР°Р»РёС‡РёРµ РєРѕРЅС‚Р°РєС‚Р° Рё update РµСЃР»Рё РЅСѓР¶РЅРѕ
         $arrContUpdate = fncUpdateContactAmo($strEmail, "", $idNextResponsible, "", $strCookieFile);
         if ($arrContUpdate[2]!="") {
             $idNextResponsible = $arrContUpdate[2];
         }
-        # пытаемся поискать
+        # РїС‹С‚Р°РµРјСЃСЏ РїРѕРёСЃРєР°С‚СЊ
         $arrAmocrmContactsList = fncAmocrmContactsList(
             AMOCRM_SUBDOMAIN,
             $strCookieFile,
@@ -1117,11 +1117,11 @@ function fncAmocrmFaqForm($strName, $strQstn, $strEmail, $strCookieFile, $strFwr
                 &&
                 count($arrAmocrmContactsList['arrResponse']['contacts'])
             ) {
-                # для каждого найденного контакта
-                # есть break!
+                # РґР»СЏ РєР°Р¶РґРѕРіРѕ РЅР°Р№РґРµРЅРЅРѕРіРѕ РєРѕРЅС‚Р°РєС‚Р°
+                # РµСЃС‚СЊ break!
                 foreach ( $arrAmocrmContactsList['arrResponse']['contacts'] as $arrCntct ) {
 
-                    # отбираем его emailы
+                    # РѕС‚Р±РёСЂР°РµРј РµРіРѕ emailС‹
                     $arrCntEmails = array ();
                     if (
                         isset ($arrCntct['custom_fields'])
@@ -1132,7 +1132,7 @@ function fncAmocrmFaqForm($strName, $strQstn, $strEmail, $strCookieFile, $strFwr
                             if (
                                 AMOCRM_CONTACT_EMAIL_CSTFID == $arrCF['id']
                             ) {
-                                # это email
+                                # СЌС‚Рѕ email
                                 if (
                                     isset ($arrCF['values'])
                                     &&
@@ -1169,14 +1169,14 @@ function fncAmocrmFaqForm($strName, $strQstn, $strEmail, $strCookieFile, $strFwr
             ! isset ($idContactExists)
             ) {
 
-                # пытаемся создать контакт
+                # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ РєРѕРЅС‚Р°РєС‚
                 $arrAmocrmContactsSetAdd = fncAmocrmContactsSet(
                     AMOCRM_SUBDOMAIN,
                     $strCookieFile,
                     array (
                         array (
                             'name' => $strName,
-                            'tags' => 'Лид',
+                            'tags' => 'Р›РёРґ',
                             'responsible_user_id' => $idNextResponsible,
                             'custom_fields' => array (
                                 array (
@@ -1205,17 +1205,17 @@ function fncAmocrmFaqForm($strName, $strQstn, $strEmail, $strCookieFile, $strFwr
 
             } # if
 
-            # пытаемся создать задачу
+            # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ Р·Р°РґР°С‡Сѓ
             $arrAmocrmTasksCreate = fncAmocrmTasksCreate(
                 AMOCRM_SUBDOMAIN,
                 $strCookieFile,
                 array (
                     array (
-                        'element_id' => $idContactExists, # id контакта
+                        'element_id' => $idContactExists, # id РєРѕРЅС‚Р°РєС‚Р°
                         'responsible_user_id' => $idNextResponsible,
-                        'element_type' => 1, # 1 значит, что в element_id - контакт
+                        'element_type' => 1, # 1 Р·РЅР°С‡РёС‚, С‡С‚Рѕ РІ element_id - РєРѕРЅС‚Р°РєС‚
                         'task_type' => AMOCRM_TASKTYPECALL_ID,
-                        'text' => 'Новый вопрос с сайта textiloptom.ru',
+                        'text' => 'РќРѕРІС‹Р№ РІРѕРїСЂРѕСЃ СЃ СЃР°Р№С‚Р° textiloptom.ru',
                         'complete_till' => mktime(23, 59, 30, date('n'), date('j'), date('Y')),
                     ),
                 )
@@ -1231,15 +1231,15 @@ function fncAmocrmFaqForm($strName, $strQstn, $strEmail, $strCookieFile, $strFwr
                 $strQstn != ''
             ) {
 
-                # пытаемся создать примечание
+                # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ РїСЂРёРјРµС‡Р°РЅРёРµ
                 $arrAmocrmNotesCreate = fncAmocrmNotesCreate(
                     AMOCRM_SUBDOMAIN,
                     $strCookieFile,
                     array (
                         array (
                             'element_id' => $idContactExists,
-                            'element_type' => 1, # 1 == контакт
-                            'note_type' => 4, # 4 == обычное примечание https://developers.amocrm.ru/rest_api/notes_list.php#notetypes
+                            'element_type' => 1, # 1 == РєРѕРЅС‚Р°РєС‚
+                            'note_type' => 4, # 4 == РѕР±С‹С‡РЅРѕРµ РїСЂРёРјРµС‡Р°РЅРёРµ https://developers.amocrm.ru/rest_api/notes_list.php#notetypes
                             'text' => $strQstn,
                         )
                     )
@@ -1261,7 +1261,7 @@ function fncAmocrmFaqForm($strName, $strQstn, $strEmail, $strCookieFile, $strFwr
 #-----------
 function fncAmocrmFaqForm0($strName, $strQstn, $strEmail, $strCookieFile, $strFwritePath, $arrIdsResponsible) {
 
-    # пытаемся авторизироваться в amoCRM
+    # РїС‹С‚Р°РµРјСЃСЏ Р°РІС‚РѕСЂРёР·РёСЂРѕРІР°С‚СЊСЃСЏ РІ amoCRM
     $arrAmocrmAuth = fncAmocrmAuth(AMOCRM_LOGIN, AMOCRM_SUBDOMAIN, AMOCRM_API_KEY, $strCookieFile);
 
     if (
@@ -1273,13 +1273,13 @@ function fncAmocrmFaqForm0($strName, $strQstn, $strEmail, $strCookieFile, $strFw
 
         $idNextResponsible = fncGetIdNextResponsible($arrIdsResponsible, $strFwritePath);
 
-        # пытаемся создать сделку
+        # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ СЃРґРµР»РєСѓ
         $arrAmocrmLeadsCreate = fncAmocrmLeadsCreate(
             AMOCRM_SUBDOMAIN,
             $strCookieFile,
             array (
                 array (
-                    'name' => 'Новый вопрос. ' . date('d.m.Y'),
+                    'name' => 'РќРѕРІС‹Р№ РІРѕРїСЂРѕСЃ. ' . date('d.m.Y'),
                     'responsible_user_id' => $idNextResponsible,
                 )
             )
@@ -1292,7 +1292,7 @@ function fncAmocrmFaqForm0($strName, $strQstn, $strEmail, $strCookieFile, $strFw
         } # if
         else {
 
-            # пытаемся поискать
+            # РїС‹С‚Р°РµРјСЃСЏ РїРѕРёСЃРєР°С‚СЊ
             $arrAmocrmContactsList = fncAmocrmContactsList(
                 AMOCRM_SUBDOMAIN,
                 $strCookieFile,
@@ -1314,11 +1314,11 @@ function fncAmocrmFaqForm0($strName, $strQstn, $strEmail, $strCookieFile, $strFw
                     &&
                     count($arrAmocrmContactsList['arrResponse']['contacts'])
                 ) {
-                    # для каждого найденного контакта
-                    # есть break!
+                    # РґР»СЏ РєР°Р¶РґРѕРіРѕ РЅР°Р№РґРµРЅРЅРѕРіРѕ РєРѕРЅС‚Р°РєС‚Р°
+                    # РµСЃС‚СЊ break!
                     foreach ( $arrAmocrmContactsList['arrResponse']['contacts'] as $arrCntct ) {
 
-                        # отбираем его emailы
+                        # РѕС‚Р±РёСЂР°РµРј РµРіРѕ emailС‹
                         $arrCntEmails = array ();
                         if (
                             isset ($arrCntct['custom_fields'])
@@ -1329,7 +1329,7 @@ function fncAmocrmFaqForm0($strName, $strQstn, $strEmail, $strCookieFile, $strFw
                                 if (
                                     AMOCRM_CONTACT_EMAIL_CSTFID == $arrCF['id']
                                 ) {
-                                    # это email
+                                    # СЌС‚Рѕ email
                                     if (
                                         isset ($arrCF['values'])
                                         &&
@@ -1372,7 +1372,7 @@ function fncAmocrmFaqForm0($strName, $strQstn, $strEmail, $strCookieFile, $strFw
                 ! isset ($idContactExists)
                 ) {
 
-                    # пытаемся создать контакт
+                    # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ РєРѕРЅС‚Р°РєС‚
                     $arrAmocrmContactsSetAdd = fncAmocrmContactsSet(
                         AMOCRM_SUBDOMAIN,
                         $strCookieFile,
@@ -1408,7 +1408,7 @@ function fncAmocrmFaqForm0($strName, $strQstn, $strEmail, $strCookieFile, $strFw
 
                     $arrContactExistsLeads[] = $arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id'];
 
-                    # пытаемся обновить контакт
+                    # РїС‹С‚Р°РµРјСЃСЏ РѕР±РЅРѕРІРёС‚СЊ РєРѕРЅС‚Р°РєС‚
                     $arrAmocrmContactsSetUpdate = fncAmocrmContactsSet(
                         AMOCRM_SUBDOMAIN,
                         $strCookieFile,
@@ -1430,17 +1430,17 @@ function fncAmocrmFaqForm0($strName, $strQstn, $strEmail, $strCookieFile, $strFw
 
                 } # else
 
-                # пытаемся создать задачу
+                # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ Р·Р°РґР°С‡Сѓ
                 $arrAmocrmTasksCreate = fncAmocrmTasksCreate(
                     AMOCRM_SUBDOMAIN,
                     $strCookieFile,
                     array (
                         array (
-                            'element_id' => $arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id'], # id сделки
+                            'element_id' => $arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id'], # id СЃРґРµР»РєРё
                             'responsible_user_id' => $idNextResponsible,
-                            'element_type' => 2, # 2 значит, что в element_id - сделка
+                            'element_type' => 2, # 2 Р·РЅР°С‡РёС‚, С‡С‚Рѕ РІ element_id - СЃРґРµР»РєР°
                             'task_type' => AMOCRM_TASKTYPECALL_ID,
-                            'text' => 'Перезвонить',
+                            'text' => 'РџРµСЂРµР·РІРѕРЅРёС‚СЊ',
                             'complete_till' => mktime(23, 59, 30, date('n'), date('j'), date('Y')),
                         ),
                     )
@@ -1456,15 +1456,15 @@ function fncAmocrmFaqForm0($strName, $strQstn, $strEmail, $strCookieFile, $strFw
                     $strQstn != ''
                 ) {
 
-                    # пытаемся создать примечание
+                    # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ РїСЂРёРјРµС‡Р°РЅРёРµ
                     $arrAmocrmNotesCreate = fncAmocrmNotesCreate(
                         AMOCRM_SUBDOMAIN,
                         $strCookieFile,
                         array (
                             array (
                                 'element_id' => $arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id'],
-                                'element_type' => 2, # 2 == сделка
-                                'note_type' => 4, # 4 == обычное примечание https://developers.amocrm.ru/rest_api/notes_list.php#notetypes
+                                'element_type' => 2, # 2 == СЃРґРµР»РєР°
+                                'note_type' => 4, # 4 == РѕР±С‹С‡РЅРѕРµ РїСЂРёРјРµС‡Р°РЅРёРµ https://developers.amocrm.ru/rest_api/notes_list.php#notetypes
                                 'text' => $strQstn,
                             )
                         )
@@ -1489,15 +1489,15 @@ function fncAmocrmFaqForm0($strName, $strQstn, $strEmail, $strCookieFile, $strFw
 
 #-----------
 function fncAmocrmPartnerForm($strName, $strPhone, $strEmail, $strCookieFile, $strFwritePath, $arrIdsResponsible) {
-    //используемые функции
-    // fncAmocrmAuth - авторизация
+    //РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ С„СѓРЅРєС†РёРё
+    // fncAmocrmAuth - Р°РІС‚РѕСЂРёР·Р°С†РёСЏ
     // fncGetIdNextResponsible -
-    // fncAmocrmLeadsCreate - !!!создание сущности Сделка - ответственный нужен
-    // fncAmocrmContactsList - получение списка контактов
-    // fncAmocrmContactsSet - !!!создание сущности Контакт - ответственный нужен
-    // fncAmocrmTasksCreate - !!!создание сущности Задача - ответственный нужен
+    // fncAmocrmLeadsCreate - !!!СЃРѕР·РґР°РЅРёРµ СЃСѓС‰РЅРѕСЃС‚Рё РЎРґРµР»РєР° - РѕС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РЅСѓР¶РµРЅ
+    // fncAmocrmContactsList - РїРѕР»СѓС‡РµРЅРёРµ СЃРїРёСЃРєР° РєРѕРЅС‚Р°РєС‚РѕРІ
+    // fncAmocrmContactsSet - !!!СЃРѕР·РґР°РЅРёРµ СЃСѓС‰РЅРѕСЃС‚Рё РљРѕРЅС‚Р°РєС‚ - РѕС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РЅСѓР¶РµРЅ
+    // fncAmocrmTasksCreate - !!!СЃРѕР·РґР°РЅРёРµ СЃСѓС‰РЅРѕСЃС‚Рё Р—Р°РґР°С‡Р° - РѕС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РЅСѓР¶РµРЅ
 
-    # пытаемся авторизироваться в amoCRM
+    # РїС‹С‚Р°РµРјСЃСЏ Р°РІС‚РѕСЂРёР·РёСЂРѕРІР°С‚СЊСЃСЏ РІ amoCRM
     $arrAmocrmAuth = fncAmocrmAuth(AMOCRM_LOGIN, AMOCRM_SUBDOMAIN, AMOCRM_API_KEY, $strCookieFile);
 
     if (
@@ -1508,32 +1508,32 @@ function fncAmocrmPartnerForm($strName, $strPhone, $strEmail, $strCookieFile, $s
     else {
 
         $idNextResponsible = fncGetIdNextResponsible($arrIdsResponsible, $strFwritePath);
-        //проверяем наличие контакта и update если нужно
+        //РїСЂРѕРІРµСЂСЏРµРј РЅР°Р»РёС‡РёРµ РєРѕРЅС‚Р°РєС‚Р° Рё update РµСЃР»Рё РЅСѓР¶РЅРѕ
         $arrContUpdate = fncUpdateContactAmo($strEmail, AMOCRM_LOGIN, $idNextResponsible, $strPhone, $strCookieFile);
         //
-        # пытаемся создать сделку и поместить ее в нужную воронку
+        # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ СЃРґРµР»РєСѓ Рё РїРѕРјРµСЃС‚РёС‚СЊ РµРµ РІ РЅСѓР¶РЅСѓСЋ РІРѕСЂРѕРЅРєСѓ
         if ($arrContUpdate[0] == "") {
             if ($arrContUpdate[1] == "1") {
-                //для клиента c тэгом Лид в воронке Лид 'pipeline_id'=>40290
+                //РґР»СЏ РєР»РёРµРЅС‚Р° c С‚СЌРіРѕРј Р›РёРґ РІ РІРѕСЂРѕРЅРєРµ Р›РёРґ 'pipeline_id'=>40290
                 $arrAmocrmLeadsCreate = fncAmocrmLeadsCreate(
                     AMOCRM_SUBDOMAIN,
                     $strCookieFile,
                     array (
                         array (
-                            'name' => 'Новый партнёр c textiloptom.ru. ' . date('d.m.Y'),
+                            'name' => 'РќРѕРІС‹Р№ РїР°СЂС‚РЅС‘СЂ c textiloptom.ru. ' . date('d.m.Y'),
                             'pipeline_id'=>40290,
                             'responsible_user_id' => $idNextResponsible,
                         )
                     )
                 );
             } else {
-                //для старого клиента в воронке клиент 'pipeline_id'=>10476
+                //РґР»СЏ СЃС‚Р°СЂРѕРіРѕ РєР»РёРµРЅС‚Р° РІ РІРѕСЂРѕРЅРєРµ РєР»РёРµРЅС‚ 'pipeline_id'=>10476
                 $arrAmocrmLeadsCreate = fncAmocrmLeadsCreate(
                     AMOCRM_SUBDOMAIN,
                     $strCookieFile,
                     array (
                         array (
-                            'name' => 'Новый партнёр c textiloptom.ru. ' . date('d.m.Y'),
+                            'name' => 'РќРѕРІС‹Р№ РїР°СЂС‚РЅС‘СЂ c textiloptom.ru. ' . date('d.m.Y'),
                             'pipeline_id'=>10476,
                             'responsible_user_id' => $idNextResponsible,
                         )
@@ -1541,21 +1541,21 @@ function fncAmocrmPartnerForm($strName, $strPhone, $strEmail, $strCookieFile, $s
                 );
             }
         } else {
-            //для нового клиента в воронке Лид 'pipeline_id'=>40290
+            //РґР»СЏ РЅРѕРІРѕРіРѕ РєР»РёРµРЅС‚Р° РІ РІРѕСЂРѕРЅРєРµ Р›РёРґ 'pipeline_id'=>40290
             $arrAmocrmLeadsCreate = fncAmocrmLeadsCreate(
                 AMOCRM_SUBDOMAIN,
                 $strCookieFile,
                 array (
                     array (
-                        'name' => 'Новый партнёр c textiloptom.ru. ' . date('d.m.Y'),
+                        'name' => 'РќРѕРІС‹Р№ РїР°СЂС‚РЅС‘СЂ c textiloptom.ru. ' . date('d.m.Y'),
                         'pipeline_id'=>40290,
                         'responsible_user_id' => $idNextResponsible,
                     )
                 )
             );
         }
-        //$arrContUpdate[0]!="" - новый клиент
-        //$arrContUpdate[1]=="1" - существующий клиент с тэгом Лид
+        //$arrContUpdate[0]!="" - РЅРѕРІС‹Р№ РєР»РёРµРЅС‚
+        //$arrContUpdate[1]=="1" - СЃСѓС‰РµСЃС‚РІСѓСЋС‰РёР№ РєР»РёРµРЅС‚ СЃ С‚СЌРіРѕРј Р›РёРґ
         //===================
 
 
@@ -1566,7 +1566,7 @@ function fncAmocrmPartnerForm($strName, $strPhone, $strEmail, $strCookieFile, $s
         } # if
         else {
 
-            # пытаемся поискать
+            # РїС‹С‚Р°РµРјСЃСЏ РїРѕРёСЃРєР°С‚СЊ
             $arrAmocrmContactsList = fncAmocrmContactsList(
                 AMOCRM_SUBDOMAIN,
                 $strCookieFile,
@@ -1588,11 +1588,11 @@ function fncAmocrmPartnerForm($strName, $strPhone, $strEmail, $strCookieFile, $s
                     &&
                     count($arrAmocrmContactsList['arrResponse']['contacts'])
                 ) {
-                    # для каждого найденного контакта
-                    # есть break!
+                    # РґР»СЏ РєР°Р¶РґРѕРіРѕ РЅР°Р№РґРµРЅРЅРѕРіРѕ РєРѕРЅС‚Р°РєС‚Р°
+                    # РµСЃС‚СЊ break!
                     foreach ( $arrAmocrmContactsList['arrResponse']['contacts'] as $arrCntct ) {
 
-                        # отбираем его телефоны
+                        # РѕС‚Р±РёСЂР°РµРј РµРіРѕ С‚РµР»РµС„РѕРЅС‹
                         $arrCntPhones = array ();
                         if (
                             isset ($arrCntct['custom_fields'])
@@ -1603,7 +1603,7 @@ function fncAmocrmPartnerForm($strName, $strPhone, $strEmail, $strCookieFile, $s
                                 if (
                                     AMOCRM_CONTACT_PHONE_CSTFID == $arrCF['id']
                                 ) {
-                                    # это телефон
+                                    # СЌС‚Рѕ С‚РµР»РµС„РѕРЅ
                                     if (
                                         isset ($arrCF['values'])
                                         &&
@@ -1646,7 +1646,7 @@ function fncAmocrmPartnerForm($strName, $strPhone, $strEmail, $strCookieFile, $s
                 ! isset ($idContactExists)
                 ) {
 
-                    # пытаемся создать контакт
+                    # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ РєРѕРЅС‚Р°РєС‚
                     $arrAmocrmContactsSetAdd = fncAmocrmContactsSet(
                         AMOCRM_SUBDOMAIN,
                         $strCookieFile,
@@ -1654,7 +1654,7 @@ function fncAmocrmPartnerForm($strName, $strPhone, $strEmail, $strCookieFile, $s
                             array (
                                 'name' => $strName,
                                 'linked_leads_id' => array ($arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id']),
-                                'tags' => "Лид",
+                                'tags' => "Р›РёРґ",
                                 'responsible_user_id' => $idNextResponsible,
                                 'custom_fields' => array (
                                     array (
@@ -1692,7 +1692,7 @@ function fncAmocrmPartnerForm($strName, $strPhone, $strEmail, $strCookieFile, $s
 
                     $arrContactExistsLeads[] = $arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id'];
 
-                    # пытаемся обновить контакт
+                    # РїС‹С‚Р°РµРјСЃСЏ РѕР±РЅРѕРІРёС‚СЊ РєРѕРЅС‚Р°РєС‚
                     $arrAmocrmContactsSetUpdate = fncAmocrmContactsSet(
                         AMOCRM_SUBDOMAIN,
                         $strCookieFile,
@@ -1714,17 +1714,17 @@ function fncAmocrmPartnerForm($strName, $strPhone, $strEmail, $strCookieFile, $s
 
                 } # else
 
-                # пытаемся создать задачу
+                # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ Р·Р°РґР°С‡Сѓ
                 $arrAmocrmTasksCreate = fncAmocrmTasksCreate(
                     AMOCRM_SUBDOMAIN,
                     $strCookieFile,
                     array (
                         array (
-                            'element_id' => $arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id'], # id сделки
+                            'element_id' => $arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id'], # id СЃРґРµР»РєРё
                             'responsible_user_id' => $idNextResponsible,
-                            'element_type' => 2, # 2 значит, что в element_id - сделка
+                            'element_type' => 2, # 2 Р·РЅР°С‡РёС‚, С‡С‚Рѕ РІ element_id - СЃРґРµР»РєР°
                             'task_type' => AMOCRM_TASKTYPECALL_ID,
-                            'text' => 'Обработать (textiloptom.ru)',
+                            'text' => 'РћР±СЂР°Р±РѕС‚Р°С‚СЊ (textiloptom.ru)',
                             'complete_till' => mktime(23, 59, 30, date('n'), date('j'), date('Y')),
                         ),
                     )
@@ -1749,7 +1749,7 @@ function fncAmocrmPartnerForm($strName, $strPhone, $strEmail, $strCookieFile, $s
 #-----------
 function fncAmocrmApiForm($strEmail, $strLogin, $strName, $strSiteurl, $strCookieFile, $strFwritePath, $arrIdsResponsible) {
 
-    # пытаемся авторизироваться в amoCRM
+    # РїС‹С‚Р°РµРјСЃСЏ Р°РІС‚РѕСЂРёР·РёСЂРѕРІР°С‚СЊСЃСЏ РІ amoCRM
     $arrAmocrmAuth = fncAmocrmAuth(AMOCRM_LOGIN, AMOCRM_SUBDOMAIN, AMOCRM_API_KEY, $strCookieFile);
 
     if (
@@ -1760,34 +1760,34 @@ function fncAmocrmApiForm($strEmail, $strLogin, $strName, $strSiteurl, $strCooki
     else {
 
         $idNextResponsible = fncGetIdNextResponsible($arrIdsResponsible, $strFwritePath);
-        //проверяем наличие контакта и update если нужно
+        //РїСЂРѕРІРµСЂСЏРµРј РЅР°Р»РёС‡РёРµ РєРѕРЅС‚Р°РєС‚Р° Рё update РµСЃР»Рё РЅСѓР¶РЅРѕ
         $arrContUpdate = fncUpdateContactAmo($strEmail, $strLogin, $idNextResponsible, $strPhone = "", $strCookieFile);
         if ($arrContUpdate[2]!="") {
             $idNextResponsible = $arrContUpdate[2];
         }
-        # пытаемся создать сделку и поместить ее в нужную воронку
+        # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ СЃРґРµР»РєСѓ Рё РїРѕРјРµСЃС‚РёС‚СЊ РµРµ РІ РЅСѓР¶РЅСѓСЋ РІРѕСЂРѕРЅРєСѓ
         if ($arrContUpdate[0] == "") {
             if ($arrContUpdate[1] == "1") {
-                //для клиента c тэгом Лид в воронке Лид 'pipeline_id'=>40290
+                //РґР»СЏ РєР»РёРµРЅС‚Р° c С‚СЌРіРѕРј Р›РёРґ РІ РІРѕСЂРѕРЅРєРµ Р›РёРґ 'pipeline_id'=>40290
                 $arrAmocrmLeadsCreate = fncAmocrmLeadsCreate(
                     AMOCRM_SUBDOMAIN,
                     $strCookieFile,
                     array (
                         array (
-                            'name' => 'Новый пользователь API. ' . date('d.m.Y'),
+                            'name' => 'РќРѕРІС‹Р№ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ API. ' . date('d.m.Y'),
                             'pipeline_id'=>40290,
                             'responsible_user_id' => $idNextResponsible,
                         )
                     )
                 );
             } else {
-                //для старого клиента в воронке клиент 'pipeline_id'=>10476
+                //РґР»СЏ СЃС‚Р°СЂРѕРіРѕ РєР»РёРµРЅС‚Р° РІ РІРѕСЂРѕРЅРєРµ РєР»РёРµРЅС‚ 'pipeline_id'=>10476
                 $arrAmocrmLeadsCreate = fncAmocrmLeadsCreate(
                     AMOCRM_SUBDOMAIN,
                     $strCookieFile,
                     array (
                         array (
-                            'name' => 'Новый пользователь API. ' . date('d.m.Y'),
+                            'name' => 'РќРѕРІС‹Р№ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ API. ' . date('d.m.Y'),
                             'pipeline_id'=>10476,
                             'responsible_user_id' => $idNextResponsible,
                         )
@@ -1795,21 +1795,21 @@ function fncAmocrmApiForm($strEmail, $strLogin, $strName, $strSiteurl, $strCooki
                 );
             }
         } else {
-            //для нового клиента в воронке Лид 'pipeline_id'=>40290
+            //РґР»СЏ РЅРѕРІРѕРіРѕ РєР»РёРµРЅС‚Р° РІ РІРѕСЂРѕРЅРєРµ Р›РёРґ 'pipeline_id'=>40290
             $arrAmocrmLeadsCreate = fncAmocrmLeadsCreate(
                 AMOCRM_SUBDOMAIN,
                 $strCookieFile,
                 array (
                     array (
-                        'name' => 'Новый пользователь API. ' . date('d.m.Y'),
+                        'name' => 'РќРѕРІС‹Р№ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ API. ' . date('d.m.Y'),
                         'pipeline_id'=>40290,
                         'responsible_user_id' => $idNextResponsible,
                     )
                 )
             );
         }
-        //$arrContUpdate[0]!="" - новый клиент
-        //$arrContUpdate[1]=="1" - существующий клиент с тэгом Лид
+        //$arrContUpdate[0]!="" - РЅРѕРІС‹Р№ РєР»РёРµРЅС‚
+        //$arrContUpdate[1]=="1" - СЃСѓС‰РµСЃС‚РІСѓСЋС‰РёР№ РєР»РёРµРЅС‚ СЃ С‚СЌРіРѕРј Р›РёРґ
         //================================================================
 
         if (
@@ -1819,7 +1819,7 @@ function fncAmocrmApiForm($strEmail, $strLogin, $strName, $strSiteurl, $strCooki
         } # if
         else {
 
-            # пытаемся поискать
+            # РїС‹С‚Р°РµРјСЃСЏ РїРѕРёСЃРєР°С‚СЊ
             $arrAmocrmContactsList = fncAmocrmContactsList(
                 AMOCRM_SUBDOMAIN,
                 $strCookieFile,
@@ -1841,11 +1841,11 @@ function fncAmocrmApiForm($strEmail, $strLogin, $strName, $strSiteurl, $strCooki
                     &&
                     count($arrAmocrmContactsList['arrResponse']['contacts'])
                 ) {
-                    # для каждого найденного контакта
-                    # есть break!
+                    # РґР»СЏ РєР°Р¶РґРѕРіРѕ РЅР°Р№РґРµРЅРЅРѕРіРѕ РєРѕРЅС‚Р°РєС‚Р°
+                    # РµСЃС‚СЊ break!
                     foreach ( $arrAmocrmContactsList['arrResponse']['contacts'] as $arrCntct ) {
 
-                        # отбираем его emailы
+                        # РѕС‚Р±РёСЂР°РµРј РµРіРѕ emailС‹
                         $arrCntEmails = array ();
                         if (
                             isset ($arrCntct['custom_fields'])
@@ -1856,7 +1856,7 @@ function fncAmocrmApiForm($strEmail, $strLogin, $strName, $strSiteurl, $strCooki
                                 if (
                                     AMOCRM_CONTACT_EMAIL_CSTFID == $arrCF['id']
                                 ) {
-                                    # это email
+                                    # СЌС‚Рѕ email
                                     if (
                                         isset ($arrCF['values'])
                                         &&
@@ -1899,14 +1899,14 @@ function fncAmocrmApiForm($strEmail, $strLogin, $strName, $strSiteurl, $strCooki
                 ! isset ($idContactExists)
                 ) {
 
-                    # пытаемся создать контакт
+                    # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ РєРѕРЅС‚Р°РєС‚
                     $arrAmocrmContactsSetAdd = fncAmocrmContactsSet(
                         AMOCRM_SUBDOMAIN,
                         $strCookieFile,
                         array (
                             array (
                                 'name' => $strName,
-                                'tags' => "Лид",
+                                'tags' => "Р›РёРґ",
                                 'responsible_user_id' => $idNextResponsible,
                                 'linked_leads_id' => array ($arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id']),
                                 'custom_fields' => array (
@@ -1944,7 +1944,7 @@ function fncAmocrmApiForm($strEmail, $strLogin, $strName, $strSiteurl, $strCooki
 
                     $arrContactExistsLeads[] = $arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id'];
 
-                    # пытаемся обновить контакт
+                    # РїС‹С‚Р°РµРјСЃСЏ РѕР±РЅРѕРІРёС‚СЊ РєРѕРЅС‚Р°РєС‚
                     $arrAmocrmContactsSetUpdate = fncAmocrmContactsSet(
                         AMOCRM_SUBDOMAIN,
                         $strCookieFile,
@@ -1966,17 +1966,17 @@ function fncAmocrmApiForm($strEmail, $strLogin, $strName, $strSiteurl, $strCooki
 
                 } # else
 
-                # пытаемся создать задачу
+                # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ Р·Р°РґР°С‡Сѓ
                 $arrAmocrmTasksCreate = fncAmocrmTasksCreate(
                     AMOCRM_SUBDOMAIN,
                     $strCookieFile,
                     array (
                         array (
-                            'element_id' => $arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id'], # id сделки
+                            'element_id' => $arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id'], # id СЃРґРµР»РєРё
                             'responsible_user_id' => $idNextResponsible,
-                            'element_type' => 2, # 2 значит, что в element_id - сделка
+                            'element_type' => 2, # 2 Р·РЅР°С‡РёС‚, С‡С‚Рѕ РІ element_id - СЃРґРµР»РєР°
                             'task_type' => AMOCRM_TASKTYPECALL_ID,
-                            'text' => 'Перезвонить',
+                            'text' => 'РџРµСЂРµР·РІРѕРЅРёС‚СЊ',
                             'complete_till' => mktime(23, 59, 30, date('n'), date('j'), date('Y')),
                         ),
                     )
@@ -1992,16 +1992,16 @@ function fncAmocrmApiForm($strEmail, $strLogin, $strName, $strSiteurl, $strCooki
                     $strSiteurl != ''
                 ) {
 
-                    # пытаемся создать примечание
+                    # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ РїСЂРёРјРµС‡Р°РЅРёРµ
                     $arrAmocrmNotesCreate = fncAmocrmNotesCreate(
                         AMOCRM_SUBDOMAIN,
                         $strCookieFile,
                         array (
                             array (
                                 'element_id' => $arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id'],
-                                'element_type' => 2, # 2 == сделка
-                                'note_type' => 4, # 4 == обычное примечание https://developers.amocrm.ru/rest_api/notes_list.php#notetypes
-                                'text' => 'Адрес сайта: ' . $strSiteurl,
+                                'element_type' => 2, # 2 == СЃРґРµР»РєР°
+                                'note_type' => 4, # 4 == РѕР±С‹С‡РЅРѕРµ РїСЂРёРјРµС‡Р°РЅРёРµ https://developers.amocrm.ru/rest_api/notes_list.php#notetypes
+                                'text' => 'РђРґСЂРµСЃ СЃР°Р№С‚Р°: ' . $strSiteurl,
                             )
                         )
                     );
@@ -2026,7 +2026,7 @@ function fncAmocrmApiForm($strEmail, $strLogin, $strName, $strSiteurl, $strCooki
 #-----------
 function fncAmocrmSailidRegForm($strLogin, $strEmail, $strPhone, $strSurname, $strName, $strMiddlename, $strCookieFile) {
 
-    # пытаемся авторизироваться в amoCRM
+    # РїС‹С‚Р°РµРјСЃСЏ Р°РІС‚РѕСЂРёР·РёСЂРѕРІР°С‚СЊСЃСЏ РІ amoCRM
     $arrAmocrmAuth = fncAmocrmAuth(AMOCRM_LOGIN, AMOCRM_SUBDOMAIN, AMOCRM_API_KEY, $strCookieFile);
 
     if (
@@ -2038,13 +2038,13 @@ function fncAmocrmSailidRegForm($strLogin, $strEmail, $strPhone, $strSurname, $s
 
         $idNextResponsible = AMOCRM_ID_FIXED_RESPONSIBLE;
 
-        # пытаемся создать сделку
+        # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ СЃРґРµР»РєСѓ
         $arrAmocrmLeadsCreate = fncAmocrmLeadsCreate(
             AMOCRM_SUBDOMAIN,
             $strCookieFile,
             array (
                 array (
-                    'name' => 'sailid регистрация. ' . date('d.m.Y'),
+                    'name' => 'sailid СЂРµРіРёСЃС‚СЂР°С†РёСЏ. ' . date('d.m.Y'),
                     'responsible_user_id' => $idNextResponsible,
                 )
             )
@@ -2057,7 +2057,7 @@ function fncAmocrmSailidRegForm($strLogin, $strEmail, $strPhone, $strSurname, $s
         } # if
         else {
 
-            # пытаемся поискать
+            # РїС‹С‚Р°РµРјСЃСЏ РїРѕРёСЃРєР°С‚СЊ
             $arrAmocrmContactsList = fncAmocrmContactsList(
                 AMOCRM_SUBDOMAIN,
                 $strCookieFile,
@@ -2079,11 +2079,11 @@ function fncAmocrmSailidRegForm($strLogin, $strEmail, $strPhone, $strSurname, $s
                     &&
                     count($arrAmocrmContactsList['arrResponse']['contacts'])
                 ) {
-                    # для каждого найденного контакта
-                    # есть break!
+                    # РґР»СЏ РєР°Р¶РґРѕРіРѕ РЅР°Р№РґРµРЅРЅРѕРіРѕ РєРѕРЅС‚Р°РєС‚Р°
+                    # РµСЃС‚СЊ break!
                     foreach ( $arrAmocrmContactsList['arrResponse']['contacts'] as $arrCntct ) {
 
-                        # отбираем его телефоны
+                        # РѕС‚Р±РёСЂР°РµРј РµРіРѕ С‚РµР»РµС„РѕРЅС‹
                         $arrCntPhones = array ();
                         if (
                             isset ($arrCntct['custom_fields'])
@@ -2094,7 +2094,7 @@ function fncAmocrmSailidRegForm($strLogin, $strEmail, $strPhone, $strSurname, $s
                                 if (
                                     AMOCRM_CONTACT_PHONE_CSTFID == $arrCF['id']
                                 ) {
-                                    # это телефон
+                                    # СЌС‚Рѕ С‚РµР»РµС„РѕРЅ
                                     if (
                                         isset ($arrCF['values'])
                                         &&
@@ -2137,7 +2137,7 @@ function fncAmocrmSailidRegForm($strLogin, $strEmail, $strPhone, $strSurname, $s
                 ! isset ($idContactExists)
                 ) {
 
-                    # пытаемся создать контакт
+                    # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ РєРѕРЅС‚Р°РєС‚
                     $arrAmocrmContactsSetAdd = fncAmocrmContactsSet(
                         AMOCRM_SUBDOMAIN,
                         $strCookieFile,
@@ -2190,7 +2190,7 @@ function fncAmocrmSailidRegForm($strLogin, $strEmail, $strPhone, $strSurname, $s
 
                     $arrContactExistsLeads[] = $arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id'];
 
-                    # пытаемся обновить контакт
+                    # РїС‹С‚Р°РµРјСЃСЏ РѕР±РЅРѕРІРёС‚СЊ РєРѕРЅС‚Р°РєС‚
                     $arrAmocrmContactsSetUpdate = fncAmocrmContactsSet(
                         AMOCRM_SUBDOMAIN,
                         $strCookieFile,
@@ -2212,17 +2212,17 @@ function fncAmocrmSailidRegForm($strLogin, $strEmail, $strPhone, $strSurname, $s
 
                 } # else
 
-                # пытаемся создать задачу
+                # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ Р·Р°РґР°С‡Сѓ
                 $arrAmocrmTasksCreate = fncAmocrmTasksCreate(
                     AMOCRM_SUBDOMAIN,
                     $strCookieFile,
                     array (
                         array (
-                            'element_id' => $arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id'], # id сделки
+                            'element_id' => $arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id'], # id СЃРґРµР»РєРё
                             'responsible_user_id' => $idNextResponsible,
-                            'element_type' => 2, # 2 значит, что в element_id - сделка
+                            'element_type' => 2, # 2 Р·РЅР°С‡РёС‚, С‡С‚Рѕ РІ element_id - СЃРґРµР»РєР°
                             'task_type' => AMOCRM_TASKTYPECALL_ID,
-                            'text' => 'Перезвонить',
+                            'text' => 'РџРµСЂРµР·РІРѕРЅРёС‚СЊ',
                             'complete_till' => mktime(23, 59, 30, date('n'), date('j'), date('Y')),
                         ),
                     )
@@ -2245,16 +2245,16 @@ function fncAmocrmSailidRegForm($strLogin, $strEmail, $strPhone, $strSurname, $s
 
 #-----------
 function fncAmocrmCartForm($strName, $Strbudget, $strEmail, $strPhone, $txtOtherForLeadNote, $strCookieFile, $strFwritePath, $arrIdsResponsible) {
-    //используемые функции
-    // fncAmocrmAuth - авторизация
+    //РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ С„СѓРЅРєС†РёРё
+    // fncAmocrmAuth - Р°РІС‚РѕСЂРёР·Р°С†РёСЏ
     // fncGetIdNextResponsible -
-    // fncAmocrmLeadsCreate - !!!создание сущности Сделка - ответственный нужен
-    // fncAmocrmContactsList - получение списка контактов
-    // fncAmocrmContactsSet - !!!создание сущности Контакт - ответственный нужен
-    // fncAmocrmTasksCreate - !!!создание сущности Задача - ответственный нужен
-    // fncAmocrmNotesCreate - !!!создание сущности Примечание - ответственный НЕ нужен
+    // fncAmocrmLeadsCreate - !!!СЃРѕР·РґР°РЅРёРµ СЃСѓС‰РЅРѕСЃС‚Рё РЎРґРµР»РєР° - РѕС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РЅСѓР¶РµРЅ
+    // fncAmocrmContactsList - РїРѕР»СѓС‡РµРЅРёРµ СЃРїРёСЃРєР° РєРѕРЅС‚Р°РєС‚РѕРІ
+    // fncAmocrmContactsSet - !!!СЃРѕР·РґР°РЅРёРµ СЃСѓС‰РЅРѕСЃС‚Рё РљРѕРЅС‚Р°РєС‚ - РѕС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РЅСѓР¶РµРЅ
+    // fncAmocrmTasksCreate - !!!СЃРѕР·РґР°РЅРёРµ СЃСѓС‰РЅРѕСЃС‚Рё Р—Р°РґР°С‡Р° - РѕС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РЅСѓР¶РµРЅ
+    // fncAmocrmNotesCreate - !!!СЃРѕР·РґР°РЅРёРµ СЃСѓС‰РЅРѕСЃС‚Рё РџСЂРёРјРµС‡Р°РЅРёРµ - РѕС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РќР• РЅСѓР¶РµРЅ
 
-    # пытаемся авторизироваться в amoCRM
+    # РїС‹С‚Р°РµРјСЃСЏ Р°РІС‚РѕСЂРёР·РёСЂРѕРІР°С‚СЊСЃСЏ РІ amoCRM
     $arrAmocrmAuth = fncAmocrmAuth(AMOCRM_LOGIN, AMOCRM_SUBDOMAIN, AMOCRM_API_KEY, $strCookieFile);
 
     if (
@@ -2265,18 +2265,18 @@ function fncAmocrmCartForm($strName, $Strbudget, $strEmail, $strPhone, $txtOther
     else {
 
         $idNextResponsible = fncGetIdNextResponsible($arrIdsResponsible, $strFwritePath);
-        //проверяем наличие контакта и update если нужно
+        //РїСЂРѕРІРµСЂСЏРµРј РЅР°Р»РёС‡РёРµ РєРѕРЅС‚Р°РєС‚Р° Рё update РµСЃР»Рё РЅСѓР¶РЅРѕ
         $arrContUpdate = fncUpdateContactAmo($strEmail, $strLogin, $idNextResponsible, $strPhone, $strCookieFile);
-        # пытаемся создать сделку и поместить ее в нужную воронку
+        # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ СЃРґРµР»РєСѓ Рё РїРѕРјРµСЃС‚РёС‚СЊ РµРµ РІ РЅСѓР¶РЅСѓСЋ РІРѕСЂРѕРЅРєСѓ
         if ($arrContUpdate[0] == "") {
             if ($arrContUpdate[1] == "1") {
-                //для клиента c тэгом Лид в воронке Лид 'pipeline_id'=>40290
+                //РґР»СЏ РєР»РёРµРЅС‚Р° c С‚СЌРіРѕРј Р›РёРґ РІ РІРѕСЂРѕРЅРєРµ Р›РёРґ 'pipeline_id'=>40290
                 $arrAmocrmLeadsCreate = fncAmocrmLeadsCreate(
                     AMOCRM_SUBDOMAIN,
                     $strCookieFile,
                     array (
                         array (
-                            'name' => 'Новый заказ (textiloptom.ru). ' . date('d.m.Y'),
+                            'name' => 'РќРѕРІС‹Р№ Р·Р°РєР°Р· (textiloptom.ru). ' . date('d.m.Y'),
                             'price' => $Strbudget,
                             'pipeline_id'=>40290,
                             'responsible_user_id' => $idNextResponsible,
@@ -2284,13 +2284,13 @@ function fncAmocrmCartForm($strName, $Strbudget, $strEmail, $strPhone, $txtOther
                     )
                 );
             } else {
-                //для старого клиента в воронке клиент 'pipeline_id'=>10476
+                //РґР»СЏ СЃС‚Р°СЂРѕРіРѕ РєР»РёРµРЅС‚Р° РІ РІРѕСЂРѕРЅРєРµ РєР»РёРµРЅС‚ 'pipeline_id'=>10476
                 $arrAmocrmLeadsCreate = fncAmocrmLeadsCreate(
                     AMOCRM_SUBDOMAIN,
                     $strCookieFile,
                     array (
                         array (
-                            'name' => 'Новый заказ (textiloptom.ru). ' . date('d.m.Y'),
+                            'name' => 'РќРѕРІС‹Р№ Р·Р°РєР°Р· (textiloptom.ru). ' . date('d.m.Y'),
                             'price' => $Strbudget,
                             'pipeline_id'=>10476,
                             'responsible_user_id' => $idNextResponsible,
@@ -2299,13 +2299,13 @@ function fncAmocrmCartForm($strName, $Strbudget, $strEmail, $strPhone, $txtOther
                 );
             }
         } else {
-            //для нового клиента в воронке Лид 'pipeline_id'=>40290
+            //РґР»СЏ РЅРѕРІРѕРіРѕ РєР»РёРµРЅС‚Р° РІ РІРѕСЂРѕРЅРєРµ Р›РёРґ 'pipeline_id'=>40290
             $arrAmocrmLeadsCreate = fncAmocrmLeadsCreate(
                 AMOCRM_SUBDOMAIN,
                 $strCookieFile,
                 array (
                     array (
-                        'name' => 'Новый заказ (textiloptom.ru). ' . date('d.m.Y'),
+                        'name' => 'РќРѕРІС‹Р№ Р·Р°РєР°Р· (textiloptom.ru). ' . date('d.m.Y'),
                         'price' => $Strbudget,
                         'pipeline_id'=>40290,
                         'responsible_user_id' => $idNextResponsible,
@@ -2313,8 +2313,8 @@ function fncAmocrmCartForm($strName, $Strbudget, $strEmail, $strPhone, $txtOther
                 )
             );
         }
-        //$arrContUpdate[0]!="" - новый клиент
-        //$arrContUpdate[1]=="1" - существующий клиент с тэгом Лид
+        //$arrContUpdate[0]!="" - РЅРѕРІС‹Р№ РєР»РёРµРЅС‚
+        //$arrContUpdate[1]=="1" - СЃСѓС‰РµСЃС‚РІСѓСЋС‰РёР№ РєР»РёРµРЅС‚ СЃ С‚СЌРіРѕРј Р›РёРґ
 
         //===============
         if (
@@ -2324,7 +2324,7 @@ function fncAmocrmCartForm($strName, $Strbudget, $strEmail, $strPhone, $txtOther
         } # if
         else {
 
-            # пытаемся поискать
+            # РїС‹С‚Р°РµРјСЃСЏ РїРѕРёСЃРєР°С‚СЊ
             $arrAmocrmContactsList = fncAmocrmContactsList(
                 AMOCRM_SUBDOMAIN,
                 $strCookieFile,
@@ -2346,11 +2346,11 @@ function fncAmocrmCartForm($strName, $Strbudget, $strEmail, $strPhone, $txtOther
                     &&
                     count($arrAmocrmContactsList['arrResponse']['contacts'])
                 ) {
-                    # для каждого найденного контакта
-                    # есть break!
+                    # РґР»СЏ РєР°Р¶РґРѕРіРѕ РЅР°Р№РґРµРЅРЅРѕРіРѕ РєРѕРЅС‚Р°РєС‚Р°
+                    # РµСЃС‚СЊ break!
                     foreach ( $arrAmocrmContactsList['arrResponse']['contacts'] as $arrCntct ) {
 
-                        # отбираем его телефоны
+                        # РѕС‚Р±РёСЂР°РµРј РµРіРѕ С‚РµР»РµС„РѕРЅС‹
                         $arrCntPhones = array ();
                         if (
                             isset ($arrCntct['custom_fields'])
@@ -2361,7 +2361,7 @@ function fncAmocrmCartForm($strName, $Strbudget, $strEmail, $strPhone, $txtOther
                                 if (
                                     AMOCRM_CONTACT_PHONE_CSTFID == $arrCF['id']
                                 ) {
-                                    # это телефон
+                                    # СЌС‚Рѕ С‚РµР»РµС„РѕРЅ
                                     if (
                                         isset ($arrCF['values'])
                                         &&
@@ -2403,15 +2403,15 @@ function fncAmocrmCartForm($strName, $Strbudget, $strEmail, $strPhone, $txtOther
                 if (
                 ! isset ($idContactExists)
                 ) {
-                    //если контакта нет
-                    # пытаемся создать контакт
+                    //РµСЃР»Рё РєРѕРЅС‚Р°РєС‚Р° РЅРµС‚
+                    # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ РєРѕРЅС‚Р°РєС‚
                     $arrAmocrmContactsSetAdd = fncAmocrmContactsSet(
                         AMOCRM_SUBDOMAIN,
                         $strCookieFile,
                         array (
                             array (
                                 'name' => $strName,
-                                'tags' => 'Лид',
+                                'tags' => 'Р›РёРґ',
                                 'responsible_user_id' => $idNextResponsible,
                                 'linked_leads_id' => array ($arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id']),
                                 'custom_fields' => array (
@@ -2447,10 +2447,10 @@ function fncAmocrmCartForm($strName, $Strbudget, $strEmail, $strPhone, $txtOther
 
                 } # if
                 else {
-                    //контакт есть
+                    //РєРѕРЅС‚Р°РєС‚ РµСЃС‚СЊ
                     $arrContactExistsLeads[] = $arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id'];
 
-                    # пытаемся обновить контакт
+                    # РїС‹С‚Р°РµРјСЃСЏ РѕР±РЅРѕРІРёС‚СЊ РєРѕРЅС‚Р°РєС‚
                     $arrAmocrmContactsSetUpdate = fncAmocrmContactsSet(
                         AMOCRM_SUBDOMAIN,
                         $strCookieFile,
@@ -2472,17 +2472,17 @@ function fncAmocrmCartForm($strName, $Strbudget, $strEmail, $strPhone, $txtOther
 
                 } # else
 
-                # пытаемся создать задачу
+                # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ Р·Р°РґР°С‡Сѓ
                 $arrAmocrmTasksCreate = fncAmocrmTasksCreate(
                     AMOCRM_SUBDOMAIN,
                     $strCookieFile,
                     array (
                         array (
-                            'element_id' => $arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id'], # id сделки
+                            'element_id' => $arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id'], # id СЃРґРµР»РєРё
                             'responsible_user_id' => $idNextResponsible,
-                            'element_type' => 2, # 2 значит, что в element_id - сделка
+                            'element_type' => 2, # 2 Р·РЅР°С‡РёС‚, С‡С‚Рѕ РІ element_id - СЃРґРµР»РєР°
                             'task_type' => AMOCRM_TASKTYPECALL_ID,
-                            'text' => 'Обработать новый заказ (textiloptom.ru).',
+                            'text' => 'РћР±СЂР°Р±РѕС‚Р°С‚СЊ РЅРѕРІС‹Р№ Р·Р°РєР°Р· (textiloptom.ru).',
                             'complete_till' => mktime(23, 59, 30, date('n'), date('j'), date('Y')),
                         ),
                     )
@@ -2498,15 +2498,15 @@ function fncAmocrmCartForm($strName, $Strbudget, $strEmail, $strPhone, $txtOther
                     $txtOtherForLeadNote != ''
                 ) {
 
-                    # пытаемся создать примечание
+                    # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ РїСЂРёРјРµС‡Р°РЅРёРµ
                     $arrAmocrmNotesCreate = fncAmocrmNotesCreate(
                         AMOCRM_SUBDOMAIN,
                         $strCookieFile,
                         array (
                             array (
                                 'element_id' => $arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id'],
-                                'element_type' => 2, # 2 == сделка
-                                'note_type' => 4, # 4 == обычное примечание https://developers.amocrm.ru/rest_api/notes_list.php#notetypes
+                                'element_type' => 2, # 2 == СЃРґРµР»РєР°
+                                'note_type' => 4, # 4 == РѕР±С‹С‡РЅРѕРµ РїСЂРёРјРµС‡Р°РЅРёРµ https://developers.amocrm.ru/rest_api/notes_list.php#notetypes
                                 'text' => $txtOtherForLeadNote,
                             )
                         )
@@ -2530,17 +2530,17 @@ function fncAmocrmCartForm($strName, $Strbudget, $strEmail, $strPhone, $txtOther
 
 function fncUpdateContactAmo($strEmail, $strLogin, $idNextResponsible2, $strPhone, $strCookieFile) {
     echo "<br>start fncUpdateContactAmo data strEmail:".$strEmail." strPhone".$strPhone;
-    //===============Растегаев Дмитрий 18122015===============================
+    //===============Р Р°СЃС‚РµРіР°РµРІ Р”РјРёС‚СЂРёР№ 18122015===============================
     //
-    //возвращает данные контакта откуда получаем id ответственного сотрудника
-    //этот id далее используется в создании сделки
+    //РІРѕР·РІСЂР°С‰Р°РµС‚ РґР°РЅРЅС‹Рµ РєРѕРЅС‚Р°РєС‚Р° РѕС‚РєСѓРґР° РїРѕР»СѓС‡Р°РµРј id РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ СЃРѕС‚СЂСѓРґРЅРёРєР°
+    //СЌС‚РѕС‚ id РґР°Р»РµРµ РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ СЃРѕР·РґР°РЅРёРё СЃРґРµР»РєРё
     //========================================================================
     $newclient = "";
-    $leed1012 = "";	//примет отличное значение если в контакте есть тэг Лид
+    $leed1012 = "";	//РїСЂРёРјРµС‚ РѕС‚Р»РёС‡РЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РµСЃР»Рё РІ РєРѕРЅС‚Р°РєС‚Рµ РµСЃС‚СЊ С‚СЌРі Р›РёРґ
     $contactid10122015 = "";
-    $plen09122015 = strlen($strPhone); //при наличии в email как минимум 6 символов
+    $plen09122015 = strlen($strPhone); //РїСЂРё РЅР°Р»РёС‡РёРё РІ email РєР°Рє РјРёРЅРёРјСѓРј 6 СЃРёРјРІРѕР»РѕРІ
     if ($plen09122015>=6) {
-        //проверка при наличии в телефоне как минимум 6 символов
+        //РїСЂРѕРІРµСЂРєР° РїСЂРё РЅР°Р»РёС‡РёРё РІ С‚РµР»РµС„РѕРЅРµ РєР°Рє РјРёРЅРёРјСѓРј 6 СЃРёРјРІРѕР»РѕРІ
         $arrAmocrmContactsList = fncAmocrmContactsList(
             AMOCRM_SUBDOMAIN,
             $strCookieFile,
@@ -2549,27 +2549,27 @@ function fncUpdateContactAmo($strEmail, $strLogin, $idNextResponsible2, $strPhon
 
         if (array_key_exists('arrResponse',$arrAmocrmContactsList)) {
             if ($arrAmocrmContactsList['arrResponse']===null) {
-                //если по телефону ничего не нашли ищем по email
+                //РµСЃР»Рё РїРѕ С‚РµР»РµС„РѕРЅСѓ РЅРёС‡РµРіРѕ РЅРµ РЅР°С€Р»Рё РёС‰РµРј РїРѕ email
                 $arrAmocrmContactsListE = fncAmocrmContactsList(
                     AMOCRM_SUBDOMAIN,
                     $strCookieFile,
                     $strEmail
                 );
-                $contactdata10122015 = $arrAmocrmContactsListE; //массив для поиска и добавления данных
+                $contactdata10122015 = $arrAmocrmContactsListE; //РјР°СЃСЃРёРІ РґР»СЏ РїРѕРёСЃРєР° Рё РґРѕР±Р°РІР»РµРЅРёСЏ РґР°РЅРЅС‹С…
                 if ($arrAmocrmContactsListE['arrResponse']===null) {
-                    //не нашли по email
+                    //РЅРµ РЅР°С€Р»Рё РїРѕ email
                     $idNextResponsible = $idNextResponsible2;
                     $newclient = "1";
                 }	else {
-                    //нашли по email
+                    //РЅР°С€Р»Рё РїРѕ email
                     $idNextResponsible = $arrAmocrmContactsListE['arrResponse']["contacts"][0]['responsible_user_id'];
-                    $contactid10122015 = "".$arrAmocrmContactsListE['arrResponse']["contacts"][0]['id'];//id контакта
+                    $contactid10122015 = "".$arrAmocrmContactsListE['arrResponse']["contacts"][0]['id'];//id РєРѕРЅС‚Р°РєС‚Р°
                 }
             } else {
-                //нашли по телефону
+                //РЅР°С€Р»Рё РїРѕ С‚РµР»РµС„РѕРЅСѓ
                 $idNextResponsible = $arrAmocrmContactsList['arrResponse']["contacts"][0]['responsible_user_id'];
-                $contactdata10122015 = $arrAmocrmContactsList;//массив для поиска и добавления данных
-                $contactid10122015 = "".$arrAmocrmContactsList['arrResponse']["contacts"][0]['id'];//id контакта
+                $contactdata10122015 = $arrAmocrmContactsList;//РјР°СЃСЃРёРІ РґР»СЏ РїРѕРёСЃРєР° Рё РґРѕР±Р°РІР»РµРЅРёСЏ РґР°РЅРЅС‹С…
+                $contactid10122015 = "".$arrAmocrmContactsList['arrResponse']["contacts"][0]['id'];//id РєРѕРЅС‚Р°РєС‚Р°
             }
         } else {
             $arrAmocrmContactsListE = fncAmocrmContactsList(
@@ -2577,15 +2577,15 @@ function fncUpdateContactAmo($strEmail, $strLogin, $idNextResponsible2, $strPhon
                 $strCookieFile,
                 $strEmail
             );
-            $contactdata10122015 = $arrAmocrmContactsListE;//массив для поиска и добавления данных
+            $contactdata10122015 = $arrAmocrmContactsListE;//РјР°СЃСЃРёРІ РґР»СЏ РїРѕРёСЃРєР° Рё РґРѕР±Р°РІР»РµРЅРёСЏ РґР°РЅРЅС‹С…
             if (array_key_exists('arrResponse',$arrAmocrmContactsListE)) {
                 if ($arrAmocrmContactsListE['arrResponse']===null) {
                     $idNextResponsible = $idNextResponsible2;
                     $newclient = "1";
                 }	else {
-                    //нашли по email
+                    //РЅР°С€Р»Рё РїРѕ email
                     $idNextResponsible = $arrAmocrmContactsListE['arrResponse']["contacts"][0]['responsible_user_id'];
-                    $contactid10122015 = "".$arrAmocrmContactsListE['arrResponse']["contacts"][0]['id'];//id контакта
+                    $contactid10122015 = "".$arrAmocrmContactsListE['arrResponse']["contacts"][0]['id'];//id РєРѕРЅС‚Р°РєС‚Р°
                 }
             }	else {
                 $idNextResponsible = $idNextResponsible2;
@@ -2593,7 +2593,7 @@ function fncUpdateContactAmo($strEmail, $strLogin, $idNextResponsible2, $strPhon
             }
         }
     } else {
-        //проверка при наличии в email как минимум 5 символов
+        //РїСЂРѕРІРµСЂРєР° РїСЂРё РЅР°Р»РёС‡РёРё РІ email РєР°Рє РјРёРЅРёРјСѓРј 5 СЃРёРјРІРѕР»РѕРІ
         $plen09122015 = strlen($strEmail);
         if ($plen09122015>=5) {
             $arrAmocrmContactsListE = fncAmocrmContactsList(
@@ -2601,70 +2601,70 @@ function fncUpdateContactAmo($strEmail, $strLogin, $idNextResponsible2, $strPhon
                 $strCookieFile,
                 $strEmail
             );
-            $contactdata10122015 = $arrAmocrmContactsListE;//массив для поиска и добавления данных
+            $contactdata10122015 = $arrAmocrmContactsListE;//РјР°СЃСЃРёРІ РґР»СЏ РїРѕРёСЃРєР° Рё РґРѕР±Р°РІР»РµРЅРёСЏ РґР°РЅРЅС‹С…
             if (array_key_exists('arrResponse',$arrAmocrmContactsListE)) {
                 if ($arrAmocrmContactsListE['arrResponse']===null) {
                     $idNextResponsible = $idNextResponsible2;
                     $newclient = "1";
                 }	else {
-                    //нашли по email
+                    //РЅР°С€Р»Рё РїРѕ email
                     $idNextResponsible = $arrAmocrmContactsListE['arrResponse']["contacts"][0]['responsible_user_id'];
-                    $contactid10122015 = "".$arrAmocrmContactsListE['arrResponse']["contacts"][0]['id'];//id контакта
+                    $contactid10122015 = "".$arrAmocrmContactsListE['arrResponse']["contacts"][0]['id'];//id РєРѕРЅС‚Р°РєС‚Р°
                 }
             }	else {
                 $idNextResponsible = $idNextResponsible2;
                 $newclient = "1";
             }
         } else {
-            //if если недостаточно строк в email и телефоне
+            //if РµСЃР»Рё РЅРµРґРѕСЃС‚Р°С‚РѕС‡РЅРѕ СЃС‚СЂРѕРє РІ email Рё С‚РµР»РµС„РѕРЅРµ
             $idNextResponsible = $idNextResponsible2;
         }
     }
     //==============================================
     //==============================================
-    $leed1012 = "";	//примет отличное значение если в контакте есть тэг Лид
-    $sdelka1012 = ""; //примет отличное значение если в контакте есть тэг Сделка
+    $leed1012 = "";	//РїСЂРёРјРµС‚ РѕС‚Р»РёС‡РЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РµСЃР»Рё РІ РєРѕРЅС‚Р°РєС‚Рµ РµСЃС‚СЊ С‚СЌРі Р›РёРґ
+    $sdelka1012 = ""; //РїСЂРёРјРµС‚ РѕС‚Р»РёС‡РЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РµСЃР»Рё РІ РєРѕРЅС‚Р°РєС‚Рµ РµСЃС‚СЊ С‚СЌРі РЎРґРµР»РєР°
     echo "<br>Finish fncUpdateContactAmo point1";
-    //если клиент не новый - то возможно нужен Update что и проверяем
+    //РµСЃР»Рё РєР»РёРµРЅС‚ РЅРµ РЅРѕРІС‹Р№ - С‚Рѕ РІРѕР·РјРѕР¶РЅРѕ РЅСѓР¶РµРЅ Update С‡С‚Рѕ Рё РїСЂРѕРІРµСЂСЏРµРј
     if ($newclient == "") {
         echo "<br>Finish fncUpdateContactAmo point2";
-        //======================update контакта=============================
+        //======================update РєРѕРЅС‚Р°РєС‚Р°=============================
         if ($contactid10122015!="") {
             echo "<br>Finish fncUpdateContactAmo point3";
-            //контакт существует и нужно проверить значения в остальны полях для возможного UPDATE и поиска тэга Лид
+            //РєРѕРЅС‚Р°РєС‚ СЃСѓС‰РµСЃС‚РІСѓРµС‚ Рё РЅСѓР¶РЅРѕ РїСЂРѕРІРµСЂРёС‚СЊ Р·РЅР°С‡РµРЅРёСЏ РІ РѕСЃС‚Р°Р»СЊРЅС‹ РїРѕР»СЏС… РґР»СЏ РІРѕР·РјРѕР¶РЅРѕРіРѕ UPDATE Рё РїРѕРёСЃРєР° С‚СЌРіР° Р›РёРґ
 
-            //ищем тэги лид и Сделка
+            //РёС‰РµРј С‚СЌРіРё Р»РёРґ Рё РЎРґРµР»РєР°
             $tags1012 = $contactdata10122015['arrResponse']["contacts"][0]['tags'];
             foreach($tags1012 as $onetag1012) {
-                //ищем тэг Лид
-                if($onetag1012['name']=="Лид") {
+                //РёС‰РµРј С‚СЌРі Р›РёРґ
+                if($onetag1012['name']=="Р›РёРґ") {
                     $leed1012 = "1";
                 }
-                //ищем тэг Клиент
-                if($onetag1012['name']=="Клиент") {
+                //РёС‰РµРј С‚СЌРі РљР»РёРµРЅС‚
+                if($onetag1012['name']=="РљР»РёРµРЅС‚") {
                     $sdelka1012 = "1";
                 }
             }
 
 
 
-            $needupdate1012 = ""; //флаг указывающий на необходимость UPDATE
+            $needupdate1012 = ""; //С„Р»Р°Рі СѓРєР°Р·С‹РІР°СЋС‰РёР№ РЅР° РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚СЊ UPDATE
             $customfields = $contactdata10122015['arrResponse']["contacts"][0]['custom_fields'];
             $i1012 = 0;
-            $flagphone = ""; //если останется пустым - нужен update
-            $flagemail = ""; //если останется пустым - нужен update
-            $flaglogin = ""; //если останется пустым - нужен update
+            $flagphone = ""; //РµСЃР»Рё РѕСЃС‚Р°РЅРµС‚СЃСЏ РїСѓСЃС‚С‹Рј - РЅСѓР¶РµРЅ update
+            $flagemail = ""; //РµСЃР»Рё РѕСЃС‚Р°РЅРµС‚СЃСЏ РїСѓСЃС‚С‹Рј - РЅСѓР¶РµРЅ update
+            $flaglogin = ""; //РµСЃР»Рё РѕСЃС‚Р°РЅРµС‚СЃСЏ РїСѓСЃС‚С‹Рј - РЅСѓР¶РµРЅ update
             $newemailarr = array();
             $newphonearr = array();
             echo "<br>Finish fncUpdateContactAmo point4";
             foreach($customfields as $value1012) {
-                //проверка на телефон
+                //РїСЂРѕРІРµСЂРєР° РЅР° С‚РµР»РµС„РѕРЅ
                 if($strPhone!="") {
                     echo "<br>Finish fncUpdateContactAmo point5 - strPhone";
                     if (array_key_exists('code',$value1012)) {
                         $strtmpcodeval = "".$value1012['code'];
                         if($strtmpcodeval==='PHONE') {
-                            //сравниваем телефон контакта и телефон из регистрации
+                            //СЃСЂР°РІРЅРёРІР°РµРј С‚РµР»РµС„РѕРЅ РєРѕРЅС‚Р°РєС‚Р° Рё С‚РµР»РµС„РѕРЅ РёР· СЂРµРіРёСЃС‚СЂР°С†РёРё
 
                             $arramovalue = $value1012['values'];
                             foreach($arramovalue as $arrcustomelement1812) {
@@ -2683,19 +2683,19 @@ function fncUpdateContactAmo($strEmail, $strLogin, $idNextResponsible2, $strPhon
                             }
                             //$amovalue = $contactdata10122015['arrResponse']["contacts"][0]['custom_fields'][$i1012]['values'][0]['value'];
                             //if ($amovalue!="") {
-                            //НЕ update поля
-                            //	$flagphone = "1"; //ставим признак что update телефона не нужен
+                            //РќР• update РїРѕР»СЏ
+                            //	$flagphone = "1"; //СЃС‚Р°РІРёРј РїСЂРёР·РЅР°Рє С‡С‚Рѕ update С‚РµР»РµС„РѕРЅР° РЅРµ РЅСѓР¶РµРЅ
                             //}
                         }
                     }
                 }
-                //проверка на email
+                //РїСЂРѕРІРµСЂРєР° РЅР° email
                 if($strEmail!="") {
                     echo "<br>Finish fncUpdateContactAmo point5 - strEmail";
                     if (array_key_exists('code',$value1012)) {
                         $strtmpcodeval = "".$value1012['code'];
                         if($strtmpcodeval==='EMAIL') {
-                            //сравниваем email контакта и email из регистрации
+                            //СЃСЂР°РІРЅРёРІР°РµРј email РєРѕРЅС‚Р°РєС‚Р° Рё email РёР· СЂРµРіРёСЃС‚СЂР°С†РёРё
 
                             $arramovalue = $value1012['values'];
 
@@ -2716,21 +2716,21 @@ function fncUpdateContactAmo($strEmail, $strLogin, $idNextResponsible2, $strPhon
 
                             //$amovalue = $contactdata10122015['arrResponse']["contacts"][0]['custom_fields'][$i1012]['values'][0]['value'];
                             //if ($amovalue!="") {
-                            //НЕ update поля
+                            //РќР• update РїРѕР»СЏ
                             //	$flagemail = "1";
                             //}
                         }
                     }
                 }
-                //проверка на логин
+                //РїСЂРѕРІРµСЂРєР° РЅР° Р»РѕРіРёРЅ
                 if($strLogin!="") {
                     echo "<br>Finish fncUpdateContactAmo point5 - strLogin";
                     if (array_key_exists('id',$value1012)) {
                         if($value1012['id']=='651538') {
-                            //сравниваем логин контакта и логин из регистрации
+                            //СЃСЂР°РІРЅРёРІР°РµРј Р»РѕРіРёРЅ РєРѕРЅС‚Р°РєС‚Р° Рё Р»РѕРіРёРЅ РёР· СЂРµРіРёСЃС‚СЂР°С†РёРё
                             $amovalue = $contactdata10122015['arrResponse']["contacts"][0]['custom_fields'][$i1012]['values'][0]['value'];
                             if ($amovalue!="") {
-                                //НЕ update поля
+                                //РќР• update РїРѕР»СЏ
                                 $flaglogin = "1";
                             }
                         }
@@ -2739,11 +2739,11 @@ function fncUpdateContactAmo($strEmail, $strLogin, $idNextResponsible2, $strPhon
                 $i1012++;
             }
             echo "<br>Finish fncUpdateContactAmo check passed";
-            //не самое оптимальное решение по скорости работы - но так быстрее было сделать - задача была срочная
-            //update телефона
+            //РЅРµ СЃР°РјРѕРµ РѕРїС‚РёРјР°Р»СЊРЅРѕРµ СЂРµС€РµРЅРёРµ РїРѕ СЃРєРѕСЂРѕСЃС‚Рё СЂР°Р±РѕС‚С‹ - РЅРѕ С‚Р°Рє Р±С‹СЃС‚СЂРµРµ Р±С‹Р»Рѕ СЃРґРµР»Р°С‚СЊ - Р·Р°РґР°С‡Р° Р±С‹Р»Р° СЃСЂРѕС‡РЅР°СЏ
+            //update С‚РµР»РµС„РѕРЅР°
 
             if( $flagphone != "1") {
-                //делаем update
+                //РґРµР»Р°РµРј update
                 $arrTmpPhone =  array (
                     'value' => $strPhone,
                     'enum' => AMOCRM_CONTACT_PHONE_CSTFTYPE,
@@ -2769,7 +2769,7 @@ function fncUpdateContactAmo($strEmail, $strLogin, $idNextResponsible2, $strPhon
             }
             //update email
             if( $flagemail != "1") {
-                //делаем update
+                //РґРµР»Р°РµРј update
                 $arrTmpEmail =  array (
                     'value' => $strEmail,
                     'enum' => AMOCRM_CONTACT_PHONE_CSTFTYPE,
@@ -2796,7 +2796,7 @@ function fncUpdateContactAmo($strEmail, $strLogin, $idNextResponsible2, $strPhon
 
             //update login
             if( $flaglogin != "1") {
-                //делаем update
+                //РґРµР»Р°РµРј update
                 $arrAmocrmContactsSetUpdate1012 = fncAmocrmContactsSet(
                     AMOCRM_SUBDOMAIN,
                     $strCookieFile,
@@ -2823,9 +2823,9 @@ function fncUpdateContactAmo($strEmail, $strLogin, $idNextResponsible2, $strPhon
         }
     }
     echo "<br>Finish fncUpdateContactAmo data strEmail:".$strEmail." strPhone:".$strPhone." idNextResponsible:".$idNextResponsible;
-    //===============Растегаев 18122015===============================
+    //===============Р Р°СЃС‚РµРіР°РµРІ 18122015===============================
     if($sdelka1012=="1") {
-        //то есть тэг клиент есть
+        //С‚Рѕ РµСЃС‚СЊ С‚СЌРі РєР»РёРµРЅС‚ РµСЃС‚СЊ
         $outTag1812 = "";
     } else {
         $outTag1812 = "1";
@@ -2836,16 +2836,16 @@ function fncUpdateContactAmo($strEmail, $strLogin, $idNextResponsible2, $strPhon
 //-----------
 function fncAmocrmTextiloptomRegForm($strEmail, $strLogin, $strName, $strPhone, $strInn, $strCmp_name, $strCmp_name_full, $strCmp_regplace, $strCmp_fio, $strCmp_site, $strCookieFile, $strFwritePath, $arrIdsResponsible) {
     echo "Start fncAmocrmTextiloptomRegForm";
-//используемые функции
-// fncAmocrmAuth - авторизация
+//РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ С„СѓРЅРєС†РёРё
+// fncAmocrmAuth - Р°РІС‚РѕСЂРёР·Р°С†РёСЏ
 // fncGetIdNextResponsible -
-// fncAmocrmLeadsCreate - !!!создание сущности Сделка - ответственный нужен
-// fncAmocrmContactsList - получение списка контактов
-// fncAmocrmContactsSet - !!!создание сущности Контакт - ответственный нужен
-// fncAmocrmCompaniesSet - !!!создание сущности Компания - ответственный нужен
-// fncAmocrmNotesCreate - !!!создание сущности Примечание - ответственный НЕ нужен
-// fncAmocrmTasksCreate - !!!создание сущности Задача - ответственный нужен
-    # пытаемся авторизироваться в amoCRM
+// fncAmocrmLeadsCreate - !!!СЃРѕР·РґР°РЅРёРµ СЃСѓС‰РЅРѕСЃС‚Рё РЎРґРµР»РєР° - РѕС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РЅСѓР¶РµРЅ
+// fncAmocrmContactsList - РїРѕР»СѓС‡РµРЅРёРµ СЃРїРёСЃРєР° РєРѕРЅС‚Р°РєС‚РѕРІ
+// fncAmocrmContactsSet - !!!СЃРѕР·РґР°РЅРёРµ СЃСѓС‰РЅРѕСЃС‚Рё РљРѕРЅС‚Р°РєС‚ - РѕС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РЅСѓР¶РµРЅ
+// fncAmocrmCompaniesSet - !!!СЃРѕР·РґР°РЅРёРµ СЃСѓС‰РЅРѕСЃС‚Рё РљРѕРјРїР°РЅРёСЏ - РѕС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РЅСѓР¶РµРЅ
+// fncAmocrmNotesCreate - !!!СЃРѕР·РґР°РЅРёРµ СЃСѓС‰РЅРѕСЃС‚Рё РџСЂРёРјРµС‡Р°РЅРёРµ - РѕС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РќР• РЅСѓР¶РµРЅ
+// fncAmocrmTasksCreate - !!!СЃРѕР·РґР°РЅРёРµ СЃСѓС‰РЅРѕСЃС‚Рё Р—Р°РґР°С‡Р° - РѕС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РЅСѓР¶РµРЅ
+    # РїС‹С‚Р°РµРјСЃСЏ Р°РІС‚РѕСЂРёР·РёСЂРѕРІР°С‚СЊСЃСЏ РІ amoCRM
     $arrAmocrmAuth = fncAmocrmAuth(AMOCRM_LOGIN, AMOCRM_SUBDOMAIN, AMOCRM_API_KEY, $strCookieFile);
 
     if (
@@ -2857,35 +2857,35 @@ function fncAmocrmTextiloptomRegForm($strEmail, $strLogin, $strName, $strPhone, 
 
         $idNextResponsible = fncGetIdNextResponsible($arrIdsResponsible, $strFwritePath);
 
-        //проверяем наличие контакта и update если нужно
+        //РїСЂРѕРІРµСЂСЏРµРј РЅР°Р»РёС‡РёРµ РєРѕРЅС‚Р°РєС‚Р° Рё update РµСЃР»Рё РЅСѓР¶РЅРѕ
         $arrContUpdate = fncUpdateContactAmo($strEmail, $strLogin, $idNextResponsible, $strPhone, $strCookieFile);
         echo "<br>Start fncAmocrmTextiloptomRegForm.fncUpdateContactAmo";
         if ($arrContUpdate[2]!="") {
             $idNextResponsible = $arrContUpdate[2];
         }
-        # пытаемся создать сделку и поместить ее в нужную воронку
+        # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ СЃРґРµР»РєСѓ Рё РїРѕРјРµСЃС‚РёС‚СЊ РµРµ РІ РЅСѓР¶РЅСѓСЋ РІРѕСЂРѕРЅРєСѓ
         if ($arrContUpdate[0] == "") {
             if ($arrContUpdate[1] == "1") {
-                //для клиента c тэгом Лид в воронке Лид 'pipeline_id'=>40290
+                //РґР»СЏ РєР»РёРµРЅС‚Р° c С‚СЌРіРѕРј Р›РёРґ РІ РІРѕСЂРѕРЅРєРµ Р›РёРґ 'pipeline_id'=>40290
                 $arrAmocrmLeadsCreate = fncAmocrmLeadsCreate(
                     AMOCRM_SUBDOMAIN,
                     $strCookieFile,
                     array (
                         array (
-                            'name' => 'textiloptom.ru регистрация. ' . date('d.m.Y'),
+                            'name' => 'textiloptom.ru СЂРµРіРёСЃС‚СЂР°С†РёСЏ. ' . date('d.m.Y'),
                             'pipeline_id'=>40290,
                             'responsible_user_id' => $idNextResponsible,
                         )
                     )
                 );
             } else {
-                //для старого клиента в воронке клиент 'pipeline_id'=>10476
+                //РґР»СЏ СЃС‚Р°СЂРѕРіРѕ РєР»РёРµРЅС‚Р° РІ РІРѕСЂРѕРЅРєРµ РєР»РёРµРЅС‚ 'pipeline_id'=>10476
                 $arrAmocrmLeadsCreate = fncAmocrmLeadsCreate(
                     AMOCRM_SUBDOMAIN,
                     $strCookieFile,
                     array (
                         array (
-                            'name' => 'textiloptom.ru регистрация. ' . date('d.m.Y'),
+                            'name' => 'textiloptom.ru СЂРµРіРёСЃС‚СЂР°С†РёСЏ. ' . date('d.m.Y'),
                             'pipeline_id'=>10476,
                             'responsible_user_id' => $idNextResponsible,
                         )
@@ -2893,29 +2893,29 @@ function fncAmocrmTextiloptomRegForm($strEmail, $strLogin, $strName, $strPhone, 
                 );
             }
         } else {
-            //для нового клиента в воронке Лид 'pipeline_id'=>40290
+            //РґР»СЏ РЅРѕРІРѕРіРѕ РєР»РёРµРЅС‚Р° РІ РІРѕСЂРѕРЅРєРµ Р›РёРґ 'pipeline_id'=>40290
             $arrAmocrmLeadsCreate = fncAmocrmLeadsCreate(
                 AMOCRM_SUBDOMAIN,
                 $strCookieFile,
                 array (
                     array (
-                        'name' => 'textiloptom.ru регистрация. ' . date('d.m.Y'),
+                        'name' => 'textiloptom.ru СЂРµРіРёСЃС‚СЂР°С†РёСЏ. ' . date('d.m.Y'),
                         'pipeline_id'=>40290,
                         'responsible_user_id' => $idNextResponsible,
                     )
                 )
             );
         }
-        //$arrContUpdate[0]!="" - новый клиент
-        //$arrContUpdate[1]=="1" - существующий клиент с тэгом Лид
+        //$arrContUpdate[0]!="" - РЅРѕРІС‹Р№ РєР»РёРµРЅС‚
+        //$arrContUpdate[1]=="1" - СЃСѓС‰РµСЃС‚РІСѓСЋС‰РёР№ РєР»РёРµРЅС‚ СЃ С‚СЌРіРѕРј Р›РёРґ
         if (
         ! $arrAmocrmLeadsCreate['boolOk']
         ) {
             # $arrAmocrmLeadsCreate['strErrDevelopUtf8']
         } # if
         else {
-            //если сделка создана то двигаемся дальше
-            # пытаемся поискать
+            //РµСЃР»Рё СЃРґРµР»РєР° СЃРѕР·РґР°РЅР° С‚Рѕ РґРІРёРіР°РµРјСЃСЏ РґР°Р»СЊС€Рµ
+            # РїС‹С‚Р°РµРјСЃСЏ РїРѕРёСЃРєР°С‚СЊ
             $arrAmocrmContactsList = fncAmocrmContactsList(
                 AMOCRM_SUBDOMAIN,
                 $strCookieFile,
@@ -2937,11 +2937,11 @@ function fncAmocrmTextiloptomRegForm($strEmail, $strLogin, $strName, $strPhone, 
                     &&
                     count($arrAmocrmContactsList['arrResponse']['contacts'])
                 ) {
-                    # для каждого найденного контакта
-                    # есть break!
+                    # РґР»СЏ РєР°Р¶РґРѕРіРѕ РЅР°Р№РґРµРЅРЅРѕРіРѕ РєРѕРЅС‚Р°РєС‚Р°
+                    # РµСЃС‚СЊ break!
                     foreach ( $arrAmocrmContactsList['arrResponse']['contacts'] as $arrCntct ) {
 
-                        # отбираем его телефоны
+                        # РѕС‚Р±РёСЂР°РµРј РµРіРѕ С‚РµР»РµС„РѕРЅС‹
                         $arrCntPhones = array ();
                         if (
                             isset ($arrCntct['custom_fields'])
@@ -2952,7 +2952,7 @@ function fncAmocrmTextiloptomRegForm($strEmail, $strLogin, $strName, $strPhone, 
                                 if (
                                     AMOCRM_CONTACT_PHONE_CSTFID == $arrCF['id']
                                 ) {
-                                    # это телефон
+                                    # СЌС‚Рѕ С‚РµР»РµС„РѕРЅ
                                     if (
                                         isset ($arrCF['values'])
                                         &&
@@ -2994,8 +2994,8 @@ function fncAmocrmTextiloptomRegForm($strEmail, $strLogin, $strName, $strPhone, 
                 if (
                 ! isset ($idContactExists)
                 ) {
-                    //если контакт не найден
-                    # пытаемся создать контакт
+                    //РµСЃР»Рё РєРѕРЅС‚Р°РєС‚ РЅРµ РЅР°Р№РґРµРЅ
+                    # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ РєРѕРЅС‚Р°РєС‚
                     $arrAmocrmContactsSetAdd = fncAmocrmContactsSet(
                         AMOCRM_SUBDOMAIN,
                         $strCookieFile,
@@ -3004,7 +3004,7 @@ function fncAmocrmTextiloptomRegForm($strEmail, $strLogin, $strName, $strPhone, 
                                 'name' => $strName,
                                 'linked_leads_id' => array ($arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id']),
                                 'responsible_user_id' => $idNextResponsible,
-                                'tags' => 'Лид',
+                                'tags' => 'Р›РёРґ',
                                 'custom_fields' => array (
                                     array (
                                         'id' => AMOCRM_CONTACT_EMAIL_CSTFID,
@@ -3044,12 +3044,12 @@ function fncAmocrmTextiloptomRegForm($strEmail, $strLogin, $strName, $strPhone, 
                         # $arrAmocrmContactsSetAdd['strErrDevelopUtf8']
                     } # if
 
-                    # пытаемся создать компанию
-                    //$arrContUpdate[0]!="" - новый клиент
-                    //$arrContUpdate[1]=="1" - существующий клиент с тэгом Лид
+                    # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ РєРѕРјРїР°РЅРёСЋ
+                    //$arrContUpdate[0]!="" - РЅРѕРІС‹Р№ РєР»РёРµРЅС‚
+                    //$arrContUpdate[1]=="1" - СЃСѓС‰РµСЃС‚РІСѓСЋС‰РёР№ РєР»РёРµРЅС‚ СЃ С‚СЌРіРѕРј Р›РёРґ
                     if( $arrContUpdate[0]!="" ) {
                         $arrAmocrmCompaniesSetAdd = fncAmocrmCompaniesSet(
-                        //для нового клиента - создание компании с тэгом ЛИД
+                        //РґР»СЏ РЅРѕРІРѕРіРѕ РєР»РёРµРЅС‚Р° - СЃРѕР·РґР°РЅРёРµ РєРѕРјРїР°РЅРёРё СЃ С‚СЌРіРѕРј Р›РР”
                             AMOCRM_SUBDOMAIN,
                             $strCookieFile,
                             array (
@@ -3057,7 +3057,7 @@ function fncAmocrmTextiloptomRegForm($strEmail, $strLogin, $strName, $strPhone, 
                                     'name' => $strCmp_name,
                                     'linked_leads_id' => array ($arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id']),
                                     'responsible_user_id' => $idNextResponsible,
-                                    'tags' => 'Лид',
+                                    'tags' => 'Р›РёРґ',
                                     'custom_fields' => array (
                                         array (
                                             'id' => AMOCRM_COMPANY_INN_CSTFID,
@@ -3105,7 +3105,7 @@ function fncAmocrmTextiloptomRegForm($strEmail, $strLogin, $strName, $strPhone, 
                             'add'
                         );
                     } else {
-                        //для НЕ нового клиента - создание компании без тэгов
+                        //РґР»СЏ РќР• РЅРѕРІРѕРіРѕ РєР»РёРµРЅС‚Р° - СЃРѕР·РґР°РЅРёРµ РєРѕРјРїР°РЅРёРё Р±РµР· С‚СЌРіРѕРІ
                         $arrAmocrmCompaniesSetAdd = fncAmocrmCompaniesSet(
                             AMOCRM_SUBDOMAIN,
                             $strCookieFile,
@@ -3169,12 +3169,12 @@ function fncAmocrmTextiloptomRegForm($strEmail, $strLogin, $strName, $strPhone, 
                         # $arrAmocrmCompaniesSetAdd['strErrDevelopUtf8']
                     } // if
 
-                } // if для нового контакта
+                } // if РґР»СЏ РЅРѕРІРѕРіРѕ РєРѕРЅС‚Р°РєС‚Р°
                 else {
-                    //id контакта существует
+                    //id РєРѕРЅС‚Р°РєС‚Р° СЃСѓС‰РµСЃС‚РІСѓРµС‚
                     $arrContactExistsLeads[] = $arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id'];
 
-                    # пытаемся обновить контакт
+                    # РїС‹С‚Р°РµРјСЃСЏ РѕР±РЅРѕРІРёС‚СЊ РєРѕРЅС‚Р°РєС‚
                     $arrAmocrmContactsSetUpdate = fncAmocrmContactsSet(
                         AMOCRM_SUBDOMAIN,
                         $strCookieFile,
@@ -3194,7 +3194,7 @@ function fncAmocrmTextiloptomRegForm($strEmail, $strLogin, $strName, $strPhone, 
                         # $arrAmocrmContactsSetUpdate['strErrDevelopUtf8']
                     } # if
 
-                    # пытаемся создать примечание
+                    # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ РїСЂРёРјРµС‡Р°РЅРёРµ
 
                     $arrAmocrmNotesCreate = fncAmocrmNotesCreate(
                         AMOCRM_SUBDOMAIN,
@@ -3202,9 +3202,9 @@ function fncAmocrmTextiloptomRegForm($strEmail, $strLogin, $strName, $strPhone, 
                         array (
                             array (
                                 'element_id' => $arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id'],
-                                'element_type' => 2, # 2 == сделка
-                                'note_type' => 4, # 4 == обычное примечание https://developers.amocrm.ru/rest_api/notes_list.php#notetypes
-                                'text' => 'Зарегистрировался снова.',
+                                'element_type' => 2, # 2 == СЃРґРµР»РєР°
+                                'note_type' => 4, # 4 == РѕР±С‹С‡РЅРѕРµ РїСЂРёРјРµС‡Р°РЅРёРµ https://developers.amocrm.ru/rest_api/notes_list.php#notetypes
+                                'text' => 'Р—Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°Р»СЃСЏ СЃРЅРѕРІР°.',
                             )
                         )
                     );
@@ -3219,21 +3219,21 @@ function fncAmocrmTextiloptomRegForm($strEmail, $strLogin, $strName, $strPhone, 
 
                 } # else
 
-                # пытаемся создать задачу
-                //$arrContUpdate[0]!="" - новый клиент
-                //$arrContUpdate[1]=="1" - существующий клиент с тэгом Лид
+                # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ Р·Р°РґР°С‡Сѓ
+                //$arrContUpdate[0]!="" - РЅРѕРІС‹Р№ РєР»РёРµРЅС‚
+                //$arrContUpdate[1]=="1" - СЃСѓС‰РµСЃС‚РІСѓСЋС‰РёР№ РєР»РёРµРЅС‚ СЃ С‚СЌРіРѕРј Р›РёРґ
 
                 $arrAmocrmTasksCreate = fncAmocrmTasksCreate(
                     AMOCRM_SUBDOMAIN,
                     $strCookieFile,
                     array (
                         array (
-                            'element_id' => $arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id'], # id сделки
+                            'element_id' => $arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id'], # id СЃРґРµР»РєРё
                             'responsible_user_id' => $idNextResponsible,
-                            'tags' => 'Лид',
-                            'element_type' => 2, # 2 значит, что в element_id - сделка
+                            'tags' => 'Р›РёРґ',
+                            'element_type' => 2, # 2 Р·РЅР°С‡РёС‚, С‡С‚Рѕ РІ element_id - СЃРґРµР»РєР°
                             'task_type' => AMOCRM_TASKTYPECALL_ID,
-                            'text' => 'Обработать регистрацию с textiloptom.ru',
+                            'text' => 'РћР±СЂР°Р±РѕС‚Р°С‚СЊ СЂРµРіРёСЃС‚СЂР°С†РёСЋ СЃ textiloptom.ru',
                             'complete_till' => mktime(23, 59, 30, date('n'), date('j'), date('Y')),
                         ),
                     )
@@ -3251,9 +3251,9 @@ function fncAmocrmTextiloptomRegForm($strEmail, $strLogin, $strName, $strPhone, 
                     $strInn != ''
                 ) {
 
-                    # пытаемся создать примечание
-                    //$arrContUpdate[0]!="" - новый клиент
-                    //$arrContUpdate[1]=="1" - существующий клиент с тэгом Лид
+                    # РїС‹С‚Р°РµРјСЃСЏ СЃРѕР·РґР°С‚СЊ РїСЂРёРјРµС‡Р°РЅРёРµ
+                    //$arrContUpdate[0]!="" - РЅРѕРІС‹Р№ РєР»РёРµРЅС‚
+                    //$arrContUpdate[1]=="1" - СЃСѓС‰РµСЃС‚РІСѓСЋС‰РёР№ РєР»РёРµРЅС‚ СЃ С‚СЌРіРѕРј Р›РёРґ
 
                     $arrAmocrmNotesCreate = fncAmocrmNotesCreate(
                         AMOCRM_SUBDOMAIN,
@@ -3261,9 +3261,9 @@ function fncAmocrmTextiloptomRegForm($strEmail, $strLogin, $strName, $strPhone, 
                         array (
                             array (
                                 'element_id' => $arrAmocrmLeadsCreate['arrResponse']['leads']['add'][0]['id'],
-                                'element_type' => 2, # 2 == сделка
-                                'note_type' => 4, # 4 == обычное примечание https://developers.amocrm.ru/rest_api/notes_list.php#notetypes
-                                'text' => 'ИНН: ' . $strInn,
+                                'element_type' => 2, # 2 == СЃРґРµР»РєР°
+                                'note_type' => 4, # 4 == РѕР±С‹С‡РЅРѕРµ РїСЂРёРјРµС‡Р°РЅРёРµ https://developers.amocrm.ru/rest_api/notes_list.php#notetypes
+                                'text' => 'РРќРќ: ' . $strInn,
                             )
                         )
                     );
@@ -3287,14 +3287,14 @@ function fncAmocrmTextiloptomRegForm($strEmail, $strLogin, $strName, $strPhone, 
 } # function
 
 
-//выполняет UPDATE сделки и контакта на ID случайного менеджера кроме менеджеров исключений
-//входной параметр - id сделки
+//РІС‹РїРѕР»РЅСЏРµС‚ UPDATE СЃРґРµР»РєРё Рё РєРѕРЅС‚Р°РєС‚Р° РЅР° ID СЃР»СѓС‡Р°Р№РЅРѕРіРѕ РјРµРЅРµРґР¶РµСЂР° РєСЂРѕРјРµ РјРµРЅРµРґР¶РµСЂРѕРІ РёСЃРєР»СЋС‡РµРЅРёР№
+//РІС…РѕРґРЅРѕР№ РїР°СЂР°РјРµС‚СЂ - id СЃРґРµР»РєРё
 function fncAmocrmUpdateLeadContact($strLeadID,$arrIdsResponsible,$arrAmocrmIdsResponsibleDisable,$strCookieFile) {
     $strnewline = '
 	================================
 	';
     @file_put_contents(AMOCRM_LOG_FILE2,'Start fncAmocrmUpdateLeadContact'.$strnewline);
-    # пытаемся авторизироваться в amoCRM
+    # РїС‹С‚Р°РµРјСЃСЏ Р°РІС‚РѕСЂРёР·РёСЂРѕРІР°С‚СЊСЃСЏ РІ amoCRM
     $flagneedupdate1612 = "";
     $arrAmocrmAuth = fncAmocrmAuth(AMOCRM_LOGIN, AMOCRM_SUBDOMAIN, AMOCRM_API_KEY, $strCookieFile);
 
@@ -3307,7 +3307,7 @@ function fncAmocrmUpdateLeadContact($strLeadID,$arrIdsResponsible,$arrAmocrmIdsR
         $idNextResponsible = fncGetIdNextResponsible($arrIdsResponsible, $strFwritePath);
         @file_put_contents(AMOCRM_LOG_FILE2,"Subj hook started incl1 - "." New idNextResponsible:".$idNextResponsible.$strnewline, FILE_APPEND);
         //mail("rsdim@rambler.ru","Subj hook started incl1","1:".$idNextResponsible);
-        // пытаемся из сделки получить данные о контакте
+        // РїС‹С‚Р°РµРјСЃСЏ РёР· СЃРґРµР»РєРё РїРѕР»СѓС‡РёС‚СЊ РґР°РЅРЅС‹Рµ Рѕ РєРѕРЅС‚Р°РєС‚Рµ
         $arrAmocrmContactsGet = fncAmocrmContactsGet(
             AMOCRM_SUBDOMAIN,
             $strCookieFile,
@@ -3321,14 +3321,14 @@ function fncAmocrmUpdateLeadContact($strLeadID,$arrIdsResponsible,$arrAmocrmIdsR
 
         } # if
         else {
-            //получаем id контакта связанного с сделкой
+            //РїРѕР»СѓС‡Р°РµРј id РєРѕРЅС‚Р°РєС‚Р° СЃРІСЏР·Р°РЅРЅРѕРіРѕ СЃ СЃРґРµР»РєРѕР№
             if (isset($arrAmocrmContactsGet['arrResponse']['links'][0]['contact_id'])) {
                 $contactid1512 = $arrAmocrmContactsGet['arrResponse']['links'][0]['contact_id'];
                 $strcontactid512 = "".$contactid1512;
                 if ($strcontactid512!="") {
                     @file_put_contents(AMOCRM_LOG_FILE2,"Subj hook started incl3 - "."3:".json_encode($arrAmocrmContactsGet).$strnewline, FILE_APPEND);
                     //mail("rsdim@rambler.ru","Subj hook started incl3 yes contact","3:".json_encode($arrAmocrmContactsGet));
-                    //получаем контакт по id контакта
+                    //РїРѕР»СѓС‡Р°РµРј РєРѕРЅС‚Р°РєС‚ РїРѕ id РєРѕРЅС‚Р°РєС‚Р°
                     $arrAmocrmContactsListById = fncAmocrmContactsListById(
                         AMOCRM_SUBDOMAIN,
                         $strCookieFile,
@@ -3340,7 +3340,7 @@ function fncAmocrmUpdateLeadContact($strLeadID,$arrIdsResponsible,$arrAmocrmIdsR
 
                     } # if
                     else {
-                        //получаем из контакта ответственного за контакт
+                        //РїРѕР»СѓС‡Р°РµРј РёР· РєРѕРЅС‚Р°РєС‚Р° РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° РєРѕРЅС‚Р°РєС‚
                         //mail("rsdim@rambler.ru","Subj hook started incl4 no contact","4: contactID: ".$strcontactid512." json - ".json_encode($arrAmocrmContactsListById));
                         $strcontactRespId = "".$arrAmocrmContactsListById['arrResponse']['contacts'][0]['responsible_user_id'];
                         @file_put_contents(AMOCRM_LOG_FILE2,"Subj hook started incl5.0 - "."From contact id:".$strcontactid512." responsible_user_id = ".$strcontactRespId.$strnewline, FILE_APPEND);
@@ -3349,7 +3349,7 @@ function fncAmocrmUpdateLeadContact($strLeadID,$arrIdsResponsible,$arrAmocrmIdsR
                             if	(in_array($strcontactRespId,$arrAmocrmIdsResponsibleDisable)) {
                                 //mail("rsdim@rambler.ru","Subj hook started incl5.1","5.1");
                                 @file_put_contents(AMOCRM_LOG_FILE2,"Subj hook started incl5.1"."5.1".$strnewline, FILE_APPEND);
-                                //апдейтим ответственного в контакте если нужно
+                                //Р°РїРґРµР№С‚РёРј РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ РІ РєРѕРЅС‚Р°РєС‚Рµ РµСЃР»Рё РЅСѓР¶РЅРѕ
                                 $arrAmocrmContactsSetUpdate1512 = fncAmocrmContactsSet(
                                     AMOCRM_SUBDOMAIN,
                                     $strCookieFile,
@@ -3366,31 +3366,31 @@ function fncAmocrmUpdateLeadContact($strLeadID,$arrIdsResponsible,$arrAmocrmIdsR
                             } else {
                                 //mail("rsdim@rambler.ru","Subj hook started incl5.2","5.2");
                                 @file_put_contents(AMOCRM_LOG_FILE2,"Subj hook started incl5.2 "."5.2".$strnewline, FILE_APPEND);
-                                //берем из контакта ответственного для апдейта в сделке
+                                //Р±РµСЂРµРј РёР· РєРѕРЅС‚Р°РєС‚Р° РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ РґР»СЏ Р°РїРґРµР№С‚Р° РІ СЃРґРµР»РєРµ
                                 $idNextResponsible = $strcontactRespId;
                                 $flagneedupdate1612 = "1";
                             }
                         } else {
                             @file_put_contents(AMOCRM_LOG_FILE2,"Subj hook started incl5.3"."5.3".$strnewline, FILE_APPEND);
                             //mail("rsdim@rambler.ru","Subj hook started incl5.3","5.3");
-                            // idNextResponsible - не меняется т.е. в контакте ерунда
+                            // idNextResponsible - РЅРµ РјРµРЅСЏРµС‚СЃСЏ С‚.Рµ. РІ РєРѕРЅС‚Р°РєС‚Рµ РµСЂСѓРЅРґР°
                         }
                     }
                 } else {
-                    //если сделка создана без контакта то и делать с ним ничего не нужно
+                    //РµСЃР»Рё СЃРґРµР»РєР° СЃРѕР·РґР°РЅР° Р±РµР· РєРѕРЅС‚Р°РєС‚Р° С‚Рѕ Рё РґРµР»Р°С‚СЊ СЃ РЅРёРј РЅРёС‡РµРіРѕ РЅРµ РЅСѓР¶РЅРѕ
                     //mail("rsdim@rambler.ru","Subj hook started incl3 no contact","3:".implode("!",$contactid1512));
                     @file_put_contents(AMOCRM_LOG_FILE2,"Subj hook started incl3 no contact"."3:".implode("!",$contactid1512).$strnewline, FILE_APPEND);
                 }
 
             } else {
-                //если сделка создана без контакта то и делать с ним ничего не нужно
+                //РµСЃР»Рё СЃРґРµР»РєР° СЃРѕР·РґР°РЅР° Р±РµР· РєРѕРЅС‚Р°РєС‚Р° С‚Рѕ Рё РґРµР»Р°С‚СЊ СЃ РЅРёРј РЅРёС‡РµРіРѕ РЅРµ РЅСѓР¶РЅРѕ
                 //mail("rsdim@rambler.ru","Subj hook started incl3 no contact","3:".implode("!",$contactid1512));
                 @file_put_contents(AMOCRM_LOG_FILE2,"Subj hook started incl3 no contact"."3:".implode("!",$contactid1512).$strnewline, FILE_APPEND);
             }
 
         }
         if ($flagneedupdate1612 == "1") {
-            # пытаемся update сделку
+            # РїС‹С‚Р°РµРјСЃСЏ update СЃРґРµР»РєСѓ
             $arrAmocrmLeadsUpdate = fncAmocrmLeadsUpdate(
                 AMOCRM_SUBDOMAIN,
                 $strCookieFile,
@@ -3413,15 +3413,15 @@ function fncAmocrmUpdateLeadContact($strLeadID,$arrIdsResponsible,$arrAmocrmIdsR
     return $strLeadID;
 }
 
-//выполняет поиск и UPDATE контакта  - тэг Лид заменяется на Клиент
-//входной параметр - id сделки
+//РІС‹РїРѕР»РЅСЏРµС‚ РїРѕРёСЃРє Рё UPDATE РєРѕРЅС‚Р°РєС‚Р°  - С‚СЌРі Р›РёРґ Р·Р°РјРµРЅСЏРµС‚СЃСЏ РЅР° РљР»РёРµРЅС‚
+//РІС…РѕРґРЅРѕР№ РїР°СЂР°РјРµС‚СЂ - id СЃРґРµР»РєРё
 function fncAmocrmUpdateContactTag($strLeadID,$arrIdsResponsible,$strCookieFile) {
     $strnewline = '
 	================================
 	';
     @file_put_contents(AMOCRM_LOG_FILE,'Start fncAmocrmUpdateContactTag'.$strnewline);
 
-    # пытаемся авторизироваться в amoCRM
+    # РїС‹С‚Р°РµРјСЃСЏ Р°РІС‚РѕСЂРёР·РёСЂРѕРІР°С‚СЊСЃСЏ РІ amoCRM
     $flagneedupdate1612 = "";
     $arrAmocrmAuth = fncAmocrmAuth(AMOCRM_LOGIN, AMOCRM_SUBDOMAIN, AMOCRM_API_KEY, $strCookieFile);
 
@@ -3434,7 +3434,7 @@ function fncAmocrmUpdateContactTag($strLeadID,$arrIdsResponsible,$strCookieFile)
         $idNextResponsible = fncGetIdNextResponsible($arrIdsResponsible, $strFwritePath);
         @file_put_contents(AMOCRM_LOG_FILE,"Subj hook started hook1612 incl1:"."1:".$idNextResponsible.$strnewline,FILE_APPEND);
 
-        // пытаемся из сделки получить данные о контакте
+        // РїС‹С‚Р°РµРјСЃСЏ РёР· СЃРґРµР»РєРё РїРѕР»СѓС‡РёС‚СЊ РґР°РЅРЅС‹Рµ Рѕ РєРѕРЅС‚Р°РєС‚Рµ
         $arrAmocrmContactsGet = fncAmocrmContactsGet(
             AMOCRM_SUBDOMAIN,
             $strCookieFile,
@@ -3447,13 +3447,13 @@ function fncAmocrmUpdateContactTag($strLeadID,$arrIdsResponsible,$strCookieFile)
 
         } # if
         else {
-            //получаем id контакта связанного с сделкой
+            //РїРѕР»СѓС‡Р°РµРј id РєРѕРЅС‚Р°РєС‚Р° СЃРІСЏР·Р°РЅРЅРѕРіРѕ СЃ СЃРґРµР»РєРѕР№
             if (isset($arrAmocrmContactsGet['arrResponse']['links'][0]['contact_id'])) {
                 $contactid1512 = $arrAmocrmContactsGet['arrResponse']['links'][0]['contact_id'];
                 $strcontactid512 = "".$contactid1512;
                 if ($strcontactid512!="") {
                     @file_put_contents(AMOCRM_LOG_FILE,"Subj hook started Lid-Klient 3.1. Contactid: ".$strcontactid512."  3:".json_encode($arrAmocrmContactsGet).$strnewline,FILE_APPEND);
-                    //получаем контакт по id контакта
+                    //РїРѕР»СѓС‡Р°РµРј РєРѕРЅС‚Р°РєС‚ РїРѕ id РєРѕРЅС‚Р°РєС‚Р°
                     $arrAmocrmContactsListById = fncAmocrmContactsListById(
                         AMOCRM_SUBDOMAIN,
                         $strCookieFile,
@@ -3467,7 +3467,7 @@ function fncAmocrmUpdateContactTag($strLeadID,$arrIdsResponsible,$strCookieFile)
 
                     } # if
                     else {
-                        //получаем из контакта массив тэгов
+                        //РїРѕР»СѓС‡Р°РµРј РёР· РєРѕРЅС‚Р°РєС‚Р° РјР°СЃСЃРёРІ С‚СЌРіРѕРІ
                         $arrcontactTag = $arrAmocrmContactsListById['arrResponse']['contacts'][0]['tags'];
                         @file_put_contents(AMOCRM_LOG_FILE, "Subj hook started Lid-Klient 4.0 - "."4: json: ".json_encode($arrcontactTag).$strnewline,FILE_APPEND);
                         $strnewtags = "";
@@ -3478,10 +3478,10 @@ function fncAmocrmUpdateContactTag($strLeadID,$arrIdsResponsible,$strCookieFile)
                                 $strnewtags .= "# key2:".$arkey1612." - ".$val16120."#";
                                 if($arkey1612=="name") {
                                     $strtagsearch = "".$val16120;
-                                    if ( $strtagsearch === "Лид" ) {
-                                        $strnewtags2 .= "Клиент,";
+                                    if ( $strtagsearch === "Р›РёРґ" ) {
+                                        $strnewtags2 .= "РљР»РёРµРЅС‚,";
                                         $flagnewtags = "1";
-                                    } elseif($strtagsearch === "Клиент") {
+                                    } elseif($strtagsearch === "РљР»РёРµРЅС‚") {
                                         $flagnewtags2 = "1";
                                     } else
                                     {
@@ -3491,13 +3491,13 @@ function fncAmocrmUpdateContactTag($strLeadID,$arrIdsResponsible,$strCookieFile)
                             }
                         }
                         if (($flagnewtags2 === "") and ($flagnewtags === "")) {
-                            $strnewtags2 .= "Клиент";
+                            $strnewtags2 .= "РљР»РёРµРЅС‚";
                         }
                         @file_put_contents(AMOCRM_LOG_FILE,$strnewtags." tags2 = ".$strnewtags2.$strnewline,FILE_APPEND);
                         if ($flagnewtags == "1") {
                             @file_put_contents(AMOCRM_LOG_FILE, "Subj hook started Lid-Klient 4.2"."4: contactID: ".$strcontactid512." json - ".json_encode($arrAmocrmContactsListById).$strnewline,FILE_APPEND);
                             //mail("rsdim@rambler.ru","Subj hook started incl5.1","5.1");
-                            //апдейтим ответственного в контакте если нужно
+                            //Р°РїРґРµР№С‚РёРј РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ РІ РєРѕРЅС‚Р°РєС‚Рµ РµСЃР»Рё РЅСѓР¶РЅРѕ
                             $arrAmocrmContactsSetUpdate1512 = fncAmocrmContactsSet(
                                 AMOCRM_SUBDOMAIN,
                                 $strCookieFile,
@@ -3514,16 +3514,16 @@ function fncAmocrmUpdateContactTag($strLeadID,$arrIdsResponsible,$strCookieFile)
                             @file_put_contents(AMOCRM_LOG_FILE, "Subj hook started Lid-Klient 4.3"."4: contactID: ".$strcontactid512." tags - ".$strnewtags.$strnewline,FILE_APPEND);
 
                             //mail("rsdim@rambler.ru","Subj hook started incl5.3","5.3");
-                            // idNextResponsible - не меняется т.е. в контакте ерунда
+                            // idNextResponsible - РЅРµ РјРµРЅСЏРµС‚СЃСЏ С‚.Рµ. РІ РєРѕРЅС‚Р°РєС‚Рµ РµСЂСѓРЅРґР°
                         }
                     }
                 } else {
-                    //если сделка создана без контакта то и делать с ним ничего не нужно
+                    //РµСЃР»Рё СЃРґРµР»РєР° СЃРѕР·РґР°РЅР° Р±РµР· РєРѕРЅС‚Р°РєС‚Р° С‚Рѕ Рё РґРµР»Р°С‚СЊ СЃ РЅРёРј РЅРёС‡РµРіРѕ РЅРµ РЅСѓР¶РЅРѕ
                     //mail("rsdim@rambler.ru","Subj hook started incl3 no contact","3:".implode("!",$contactid1512));
                 }
 
             } else {
-                //если сделка создана без контакта то и делать с ним ничего не нужно
+                //РµСЃР»Рё СЃРґРµР»РєР° СЃРѕР·РґР°РЅР° Р±РµР· РєРѕРЅС‚Р°РєС‚Р° С‚Рѕ Рё РґРµР»Р°С‚СЊ СЃ РЅРёРј РЅРёС‡РµРіРѕ РЅРµ РЅСѓР¶РЅРѕ
                 //mail("rsdim@rambler.ru","Subj hook started incl3 no contact","3:".implode("!",$contactid1512));
             }
 
@@ -3535,13 +3535,13 @@ function fncAmocrmUpdateContactTag($strLeadID,$arrIdsResponsible,$strCookieFile)
 }
 
 function fncAmocrmUpdateAllContacts($arrIdsResponsible,$arrAmocrmIdsResponsibleDisable,$strCookieFile) {
-    $countUpdated = 0; //число update контактов
+    $countUpdated = 0; //С‡РёСЃР»Рѕ update РєРѕРЅС‚Р°РєС‚РѕРІ
     $strnewline = '
 	================================
 	';
     @file_put_contents(AMOCRM_LOG_FILE,'Start fncAmocrmUpdateAllContacts');
 
-    # пытаемся авторизироваться в amoCRM
+    # РїС‹С‚Р°РµРјСЃСЏ Р°РІС‚РѕСЂРёР·РёСЂРѕРІР°С‚СЊСЃСЏ РІ amoCRM
     $flagneedupdate1612 = "";
     $arrAmocrmAuth = fncAmocrmAuth(AMOCRM_LOGIN, AMOCRM_SUBDOMAIN, AMOCRM_API_KEY, $strCookieFile);
 
@@ -3553,7 +3553,7 @@ function fncAmocrmUpdateAllContacts($arrIdsResponsible,$arrAmocrmIdsResponsibleD
     else {
         $idNextResponsible = fncGetIdNextResponsible($arrIdsResponsible, $strFwritePath);
         //fncAmocrmContactsListByResponsibleID
-        //3й параметр - id сотрудника для которого нужно получить контакты
+        //3Р№ РїР°СЂР°РјРµС‚СЂ - id СЃРѕС‚СЂСѓРґРЅРёРєР° РґР»СЏ РєРѕС‚РѕСЂРѕРіРѕ РЅСѓР¶РЅРѕ РїРѕР»СѓС‡РёС‚СЊ РєРѕРЅС‚Р°РєС‚С‹
         $arrAmocrmContactsListByResponsibleID = fncAmocrmContactsListByResponsibleID(
             AMOCRM_SUBDOMAIN,
             $strCookieFile,
@@ -3565,7 +3565,7 @@ function fncAmocrmUpdateAllContacts($arrIdsResponsible,$arrAmocrmIdsResponsibleD
 
         } # if
         else {
-            //получаем из контакта массив тэгов
+            //РїРѕР»СѓС‡Р°РµРј РёР· РєРѕРЅС‚Р°РєС‚Р° РјР°СЃСЃРёРІ С‚СЌРіРѕРІ
             $arrcontactTag = $arrAmocrmContactsListByResponsibleID['arrResponse']['contacts'];
             $countUpdated = count($arrcontactTag);
         }
@@ -3575,13 +3575,13 @@ function fncAmocrmUpdateAllContacts($arrIdsResponsible,$arrAmocrmIdsResponsibleD
     //return $idNextResponsible;
 }
 function fncAmocrmCheckTag($strLeadTag,$strLeadId,$arrIdsResponsible,$arrAmocrmIdsResponsibleDisable,$strCookieFile) {
-    $countUpdated = 0; //число update контактов
+    $countUpdated = 0; //С‡РёСЃР»Рѕ update РєРѕРЅС‚Р°РєС‚РѕРІ
     $strnewline = '
 	================================
 	';
     @file_put_contents(AMOCRM_LOG_FILE,'Start fncAmocrmCheckTag'.$strnewline);
 
-    # пытаемся авторизироваться в amoCRM
+    # РїС‹С‚Р°РµРјСЃСЏ Р°РІС‚РѕСЂРёР·РёСЂРѕРІР°С‚СЊСЃСЏ РІ amoCRM
 
     $arrAmocrmAuth = fncAmocrmAuth(AMOCRM_LOGIN, AMOCRM_SUBDOMAIN, AMOCRM_API_KEY, $strCookieFile);
 
@@ -3606,10 +3606,10 @@ function fncAmocrmCheckTag($strLeadTag,$strLeadId,$arrIdsResponsible,$arrAmocrmI
         } # if
         else {
             $arrTags = $arrLeadData['arrResponse']['leads'][0]['tags'];
-            @file_put_contents(AMOCRM_LOG_FILE,"Ищем тэг:".$strLeadTag.$strnewline,FILE_APPEND);
+            @file_put_contents(AMOCRM_LOG_FILE,"РС‰РµРј С‚СЌРі:".$strLeadTag.$strnewline,FILE_APPEND);
             foreach($arrTags as $subarrtag) {
                 if($subarrtag['name']==$strLeadTag) {
-                    //нужный тэг найден
+                    //РЅСѓР¶РЅС‹Р№ С‚СЌРі РЅР°Р№РґРµРЅ
                     $countUpdated = 1;
                 } else {
                     @file_put_contents(AMOCRM_LOG_FILE,"tags:".$subarrtag['name'].$strnewline,FILE_APPEND);
@@ -3622,14 +3622,14 @@ function fncAmocrmCheckTag($strLeadTag,$strLeadId,$arrIdsResponsible,$arrAmocrmI
     //return $idNextResponsible;
 }
 
-//выполняет UPDATE сделки и контакта на ID случайного менеджера кроме менеджеров исключений
-//входной параметр strLeadID - id сделки, strManagerId - id того менеджера который должен быть ответсвенным за сделку и контакт
+//РІС‹РїРѕР»РЅСЏРµС‚ UPDATE СЃРґРµР»РєРё Рё РєРѕРЅС‚Р°РєС‚Р° РЅР° ID СЃР»СѓС‡Р°Р№РЅРѕРіРѕ РјРµРЅРµРґР¶РµСЂР° РєСЂРѕРјРµ РјРµРЅРµРґР¶РµСЂРѕРІ РёСЃРєР»СЋС‡РµРЅРёР№
+//РІС…РѕРґРЅРѕР№ РїР°СЂР°РјРµС‚СЂ strLeadID - id СЃРґРµР»РєРё, strManagerId - id С‚РѕРіРѕ РјРµРЅРµРґР¶РµСЂР° РєРѕС‚РѕСЂС‹Р№ РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ РѕС‚РІРµС‚СЃРІРµРЅРЅС‹Рј Р·Р° СЃРґРµР»РєСѓ Рё РєРѕРЅС‚Р°РєС‚
 function fncAmocrmUpdateLeadContactTo($strLeadID,$strManagerId,$arrAmocrmIdsResponsibleDisable,$strCookieFile) {
     $strnewline = '
 	================================
 	';
     @file_put_contents(AMOCRM_LOG_FILE2,'Start fncAmocrmUpdateLeadContactTo'.$strnewline);
-    # пытаемся авторизироваться в amoCRM
+    # РїС‹С‚Р°РµРјСЃСЏ Р°РІС‚РѕСЂРёР·РёСЂРѕРІР°С‚СЊСЃСЏ РІ amoCRM
     $flagneedupdate1612 = "";
     $arrAmocrmAuth = fncAmocrmAuth(AMOCRM_LOGIN, AMOCRM_SUBDOMAIN, AMOCRM_API_KEY, $strCookieFile);
 
@@ -3642,7 +3642,7 @@ function fncAmocrmUpdateLeadContactTo($strLeadID,$strManagerId,$arrAmocrmIdsResp
         $idNextResponsible = $strManagerId;
         @file_put_contents(AMOCRM_LOG_FILE2,"Subj hook started incl1 - "." New idNextResponsible:".$idNextResponsible.$strnewline, FILE_APPEND);
         //mail("rsdim@rambler.ru","Subj hook started incl1","1:".$idNextResponsible);
-        // пытаемся из сделки получить данные о контакте
+        // РїС‹С‚Р°РµРјСЃСЏ РёР· СЃРґРµР»РєРё РїРѕР»СѓС‡РёС‚СЊ РґР°РЅРЅС‹Рµ Рѕ РєРѕРЅС‚Р°РєС‚Рµ
         $arrAmocrmContactsGet = fncAmocrmContactsGet(
             AMOCRM_SUBDOMAIN,
             $strCookieFile,
@@ -3656,14 +3656,14 @@ function fncAmocrmUpdateLeadContactTo($strLeadID,$strManagerId,$arrAmocrmIdsResp
 
         } # if
         else {
-            //получаем id контакта связанного с сделкой
+            //РїРѕР»СѓС‡Р°РµРј id РєРѕРЅС‚Р°РєС‚Р° СЃРІСЏР·Р°РЅРЅРѕРіРѕ СЃ СЃРґРµР»РєРѕР№
             if (isset($arrAmocrmContactsGet['arrResponse']['links'][0]['contact_id'])) {
                 $contactid1512 = $arrAmocrmContactsGet['arrResponse']['links'][0]['contact_id'];
                 $strcontactid512 = "".$contactid1512;
                 if ($strcontactid512!="") {
                     @file_put_contents(AMOCRM_LOG_FILE2,"Subj hook started incl3 - "."3:".json_encode($arrAmocrmContactsGet).$strnewline, FILE_APPEND);
                     //mail("rsdim@rambler.ru","Subj hook started incl3 yes contact","3:".json_encode($arrAmocrmContactsGet));
-                    //получаем контакт по id контакта
+                    //РїРѕР»СѓС‡Р°РµРј РєРѕРЅС‚Р°РєС‚ РїРѕ id РєРѕРЅС‚Р°РєС‚Р°
                     $arrAmocrmContactsListById = fncAmocrmContactsListById(
                         AMOCRM_SUBDOMAIN,
                         $strCookieFile,
@@ -3675,17 +3675,17 @@ function fncAmocrmUpdateLeadContactTo($strLeadID,$strManagerId,$arrAmocrmIdsResp
 
                     } # if
                     else {
-                        //получаем из контакта ответственного за контакт
+                        //РїРѕР»СѓС‡Р°РµРј РёР· РєРѕРЅС‚Р°РєС‚Р° РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° РєРѕРЅС‚Р°РєС‚
                         //mail("rsdim@rambler.ru","Subj hook started incl4 no contact","4: contactID: ".$strcontactid512." json - ".json_encode($arrAmocrmContactsListById));
                         $strcontactRespId = "".$arrAmocrmContactsListById['arrResponse']['contacts'][0]['responsible_user_id'];
                         @file_put_contents(AMOCRM_LOG_FILE2,"Subj hook started incl5.0 - "."From contact id:".$strcontactid512." responsible_user_id = ".$strcontactRespId.$strnewline, FILE_APPEND);
 
                         if ($strcontactRespId!="") {
-                            //если ответсвенный в контакте не наш менеджер - то нужно апдейтить ответственного в контакте
+                            //РµСЃР»Рё РѕС‚РІРµС‚СЃРІРµРЅРЅС‹Р№ РІ РєРѕРЅС‚Р°РєС‚Рµ РЅРµ РЅР°С€ РјРµРЅРµРґР¶РµСЂ - С‚Рѕ РЅСѓР¶РЅРѕ Р°РїРґРµР№С‚РёС‚СЊ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ РІ РєРѕРЅС‚Р°РєС‚Рµ
                             if	($strcontactRespId!=$idNextResponsible) {
                                 //mail("rsdim@rambler.ru","Subj hook started incl5.1","5.1");
                                 @file_put_contents(AMOCRM_LOG_FILE2,"Subj hook started incl5.1"."5.1".$strnewline, FILE_APPEND);
-                                //апдейтим ответственного в контакте если нужно
+                                //Р°РїРґРµР№С‚РёРј РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ РІ РєРѕРЅС‚Р°РєС‚Рµ РµСЃР»Рё РЅСѓР¶РЅРѕ
                                 $arrAmocrmContactsSetUpdate1512 = fncAmocrmContactsSet(
                                     AMOCRM_SUBDOMAIN,
                                     $strCookieFile,
@@ -3700,29 +3700,29 @@ function fncAmocrmUpdateLeadContactTo($strLeadID,$strManagerId,$arrAmocrmIdsResp
                                 );
                                 $flagneedupdate1612 = "1";
                             } else {
-                                //если ответственный наш менеджер - то контанкт апдейтить не нужно
+                                //РµСЃР»Рё РѕС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РЅР°С€ РјРµРЅРµРґР¶РµСЂ - С‚Рѕ РєРѕРЅС‚Р°РЅРєС‚ Р°РїРґРµР№С‚РёС‚СЊ РЅРµ РЅСѓР¶РЅРѕ
                             }
                         } else {
                             @file_put_contents(AMOCRM_LOG_FILE2,"Subj hook started incl5.3"."5.3".$strnewline, FILE_APPEND);
                             //mail("rsdim@rambler.ru","Subj hook started incl5.3","5.3");
-                            // idNextResponsible - не меняется т.е. в контакте ерунда
+                            // idNextResponsible - РЅРµ РјРµРЅСЏРµС‚СЃСЏ С‚.Рµ. РІ РєРѕРЅС‚Р°РєС‚Рµ РµСЂСѓРЅРґР°
                         }
                     }
                 } else {
-                    //если сделка создана без контакта то и делать с ним ничего не нужно
+                    //РµСЃР»Рё СЃРґРµР»РєР° СЃРѕР·РґР°РЅР° Р±РµР· РєРѕРЅС‚Р°РєС‚Р° С‚Рѕ Рё РґРµР»Р°С‚СЊ СЃ РЅРёРј РЅРёС‡РµРіРѕ РЅРµ РЅСѓР¶РЅРѕ
                     //mail("rsdim@rambler.ru","Subj hook started incl3 no contact","3:".implode("!",$contactid1512));
                     @file_put_contents(AMOCRM_LOG_FILE2,"Subj hook started incl3 no contact"."3:".implode("!",$contactid1512).$strnewline, FILE_APPEND);
                 }
 
             } else {
-                //если сделка создана без контакта то и делать с ним ничего не нужно
+                //РµСЃР»Рё СЃРґРµР»РєР° СЃРѕР·РґР°РЅР° Р±РµР· РєРѕРЅС‚Р°РєС‚Р° С‚Рѕ Рё РґРµР»Р°С‚СЊ СЃ РЅРёРј РЅРёС‡РµРіРѕ РЅРµ РЅСѓР¶РЅРѕ
                 //mail("rsdim@rambler.ru","Subj hook started incl3 no contact","3:".implode("!",$contactid1512));
                 @file_put_contents(AMOCRM_LOG_FILE2,"Subj hook started incl3 no contact"."3:".implode("!",$contactid1512).$strnewline, FILE_APPEND);
             }
 
         }
 
-        // пытаемся update сделку в любом случае
+        // РїС‹С‚Р°РµРјСЃСЏ update СЃРґРµР»РєСѓ РІ Р»СЋР±РѕРј СЃР»СѓС‡Р°Рµ
         $arrAmocrmLeadsUpdate = fncAmocrmLeadsUpdate(
             AMOCRM_SUBDOMAIN,
             $strCookieFile,
