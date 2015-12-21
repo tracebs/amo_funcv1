@@ -5,7 +5,8 @@
  * Date: 21.12.2015
  * Time: 10:26
  */
-# настройки (((
+// настройки (((
+// dev
 
 define('AMOCRM_LOGIN', 'nikolaev@textiloptom.net');
 define('AMOCRM_SUBDOMAIN', 'domitex');
