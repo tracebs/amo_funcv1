@@ -8,9 +8,6 @@
 // настройки (((
 // dev
 
-define('AMOCRM_LOGIN', 'nikolaev@textiloptom.net');
-define('AMOCRM_SUBDOMAIN', 'domitex');
-define('AMOCRM_API_KEY', '7a3aeaabf4501e6d6545140e5600b079');
 
 define('AMOCRM_CONTACT_PHONE_CSTFID', 600364); # id поля Телефон у контакта
 define('AMOCRM_CONTACT_PHONE_CSTFTYPE', 'WORK'); # тип поля Телефон у контакта
