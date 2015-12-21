@@ -5,7 +5,7 @@
  * Date: 21.12.2015
  * Time: 10:26
  */
-// настройки (((
+// настройки2 (((
 // dev
 
 define('AMOCRM_LOGIN', 'nikolaev@textiloptom.net');
